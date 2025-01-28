@@ -1,5 +1,6 @@
 env
-test.db
 app/var.env
 **/__pycache__/
 **/cache_dir/
+test.db
+db.json
