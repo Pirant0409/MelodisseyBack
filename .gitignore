@@ -1,6 +1,7 @@
 env
 app/var.env
 **/__pycache__/
-**/cache_dir/
+cache_dir/*
+access_counter/*
 test.db
 db.json
