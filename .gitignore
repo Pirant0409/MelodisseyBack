@@ -2,3 +2,4 @@ env
 test.db
 app/var.env
 **/__pycache__/
+**/cache_dir/
