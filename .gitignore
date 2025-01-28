@@ -2,6 +2,8 @@ env
 app/var.env
 **/__pycache__/
 cache_dir/*
+!cache_dir/.gitkeep
 access_counter/*
+!access_counter/.gitkeep
 test.db
 db.json
