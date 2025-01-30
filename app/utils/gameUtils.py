@@ -1,6 +1,6 @@
 from app import database, models
 from datetime import datetime, timedelta
-import json
+import json, random
 
 def is_it_guess(media,tmdbid):
     if media is not None and tmdbid is not None:
@@ -140,6 +140,14 @@ def remove_banned_words(media):
             new_overview = new_overview.replace(word,"______")
     return new_overview
 
+def create_id(idsUnavailable):
+    #generate a random string of 5 alphanumerical characters
+    isAvailable = False
+    while not isAvailable:
+        id = ''.join(random.choices("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", k=5))
+        if id not in idsUnavailable:
+            isAvailable = True
+    return id
 #save db in json file
 def save_db():
     db = database.SessionLocal()

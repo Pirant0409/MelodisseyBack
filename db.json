@@ -322,8 +322,8 @@
             "second_guess": 0,
             "fourth_guess": 1,
             "lost": 0,
-            "day_id": 1,
             "third_guess": 0,
+            "day_id": 1,
             "fifth_guess": 0,
             "total_guesses": 2
         },
@@ -332,8 +332,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 2,
-            "day_id": 2,
             "third_guess": 0,
+            "day_id": 2,
             "fifth_guess": 0,
             "total_guesses": 2
         },
@@ -342,8 +342,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
-            "day_id": 3,
             "third_guess": 0,
+            "day_id": 3,
             "fifth_guess": 1,
             "total_guesses": 2
         },
@@ -352,8 +352,8 @@
             "second_guess": 1,
             "fourth_guess": 0,
             "lost": 0,
-            "day_id": 4,
             "third_guess": 0,
+            "day_id": 4,
             "fifth_guess": 0,
             "total_guesses": 1
         },
@@ -362,8 +362,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 1,
-            "day_id": 5,
             "third_guess": 0,
+            "day_id": 5,
             "fifth_guess": 0,
             "total_guesses": 1
         },
@@ -372,8 +372,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
-            "day_id": 6,
             "third_guess": 0,
+            "day_id": 6,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -382,8 +382,18 @@
             "second_guess": 1,
             "fourth_guess": 0,
             "lost": 0,
-            "day_id": 7,
             "third_guess": 0,
+            "day_id": 7,
+            "fifth_guess": 0,
+            "total_guesses": 1
+        },
+        {
+            "first_guess": 0,
+            "second_guess": 0,
+            "fourth_guess": 0,
+            "lost": 1,
+            "third_guess": 0,
+            "day_id": 8,
             "fifth_guess": 0,
             "total_guesses": 1
         },
@@ -392,18 +402,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
-            "day_id": 8,
             "third_guess": 0,
-            "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
-            "first_guess": 0,
-            "second_guess": 0,
-            "fourth_guess": 0,
-            "lost": 0,
             "day_id": 9,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -412,8 +412,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 10,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -422,8 +422,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 11,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -432,8 +432,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 12,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -442,8 +442,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 13,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -452,28 +452,28 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 14,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
         {
-            "first_guess": 0,
+            "first_guess": 1,
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 15,
-            "third_guess": 0,
             "fifth_guess": 0,
-            "total_guesses": 0
+            "total_guesses": 1
         },
         {
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 16,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -482,8 +482,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 17,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -492,8 +492,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 18,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -502,8 +502,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 19,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -512,8 +512,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 20,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -522,8 +522,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 21,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -532,8 +532,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 22,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -542,8 +542,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 23,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -552,8 +552,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 24,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -562,8 +562,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 25,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -572,8 +572,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 26,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -582,8 +582,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 27,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -592,8 +592,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 28,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -602,8 +602,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 29,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -612,8 +612,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 30,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -622,8 +622,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 31,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -632,8 +632,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 32,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -642,8 +642,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 33,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -652,8 +652,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 34,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -662,8 +662,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 35,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -672,8 +672,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 36,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -682,8 +682,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 37,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -692,8 +692,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 38,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -702,8 +702,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 39,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -712,8 +712,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 40,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -722,8 +722,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 41,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -732,8 +732,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 42,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -742,8 +742,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 43,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -752,8 +752,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
+            "third_guess": 0,
             "day_id": 44,
-            "third_guess": 0,
             "fifth_guess": 0,
             "total_guesses": 0
         },
@@ -762,8 +762,8 @@
             "second_guess": 0,
             "fourth_guess": 0,
             "lost": 0,
-            "day_id": 45,
             "third_guess": 0,
+            "day_id": 45,
             "fifth_guess": 0,
             "total_guesses": 0
         }

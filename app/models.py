@@ -57,3 +57,18 @@ class Movies(Base):
     __table_args__ = (UniqueConstraint("tmdbid", "media", name="unique_tmdb_media"),)
     days = relationship("Days", back_populates="movie")
 
+class Rooms(Base):
+    __tablename__ = "private"
+    id = Column(String, primary_key=True, index=True)
+    tmdbid = Column(Integer,nullable=False)
+    media = Column(Enum(MediaType), nullable=False)
+    ytbid = Column(String, nullable=False)
+    poster_path = Column(String,nullable=False)
+    original_title = Column(String, nullable=False)
+    release_date = Column(String, nullable=False)
+    collection = Column(String, nullable=True)
+    hint1 = Column(String, nullable=False)
+    hint2 = Column(String, nullable=False)
+    hint3 = Column(String, nullable=False)
+    hint4 = Column(String, nullable=False)
+    creation_date = Column(Date, nullable=False)
