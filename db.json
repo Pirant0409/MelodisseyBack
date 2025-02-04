@@ -354,8 +354,8 @@
             "lost": 0,
             "third_guess": 0,
             "day_id": 4,
-            "fifth_guess": 0,
-            "total_guesses": 1
+            "fifth_guess": 1,
+            "total_guesses": 2
         },
         {
             "first_guess": 0,
@@ -364,18 +364,18 @@
             "lost": 1,
             "third_guess": 0,
             "day_id": 5,
-            "fifth_guess": 0,
-            "total_guesses": 1
+            "fifth_guess": 1,
+            "total_guesses": 2
         },
         {
             "first_guess": 0,
             "second_guess": 0,
-            "fourth_guess": 0,
+            "fourth_guess": 1,
             "lost": 0,
             "third_guess": 0,
             "day_id": 6,
             "fifth_guess": 0,
-            "total_guesses": 0
+            "total_guesses": 1
         },
         {
             "first_guess": 0,
@@ -400,12 +400,12 @@
         {
             "first_guess": 0,
             "second_guess": 0,
-            "fourth_guess": 0,
+            "fourth_guess": 1,
             "lost": 0,
             "third_guess": 0,
             "day_id": 9,
             "fifth_guess": 0,
-            "total_guesses": 0
+            "total_guesses": 1
         },
         {
             "first_guess": 0,
@@ -414,28 +414,28 @@
             "lost": 0,
             "third_guess": 0,
             "day_id": 10,
-            "fifth_guess": 0,
-            "total_guesses": 0
+            "fifth_guess": 1,
+            "total_guesses": 1
         },
         {
             "first_guess": 0,
-            "second_guess": 0,
+            "second_guess": 1,
             "fourth_guess": 0,
             "lost": 0,
             "third_guess": 0,
             "day_id": 11,
             "fifth_guess": 0,
-            "total_guesses": 0
+            "total_guesses": 1
         },
         {
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 1,
             "third_guess": 0,
             "day_id": 12,
             "fifth_guess": 0,
-            "total_guesses": 0
+            "total_guesses": 1
         },
         {
             "first_guess": 0,

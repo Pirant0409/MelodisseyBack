@@ -47,7 +47,7 @@ def get_cast_crew_collection(id,media):
     querriedURL = "https://api.themoviedb.org/3/"+media+"/"+str(id)+"?append_to_response=credits"
     response = requests.get(querriedURL,headers=headers)
     response = response.json()
-    sortedCast = sorted(response["credits"]["cast"], key=lambda x:x["order"], reverse=True)
+    sortedCast = sorted(response["credits"]["cast"], key=lambda x:x["order"], reverse=False)
     directors = [member for member in response["credits"]["crew"] if member["known_for_department"] == "Directing"]
     sortedDirectors = sorted(directors,key=lambda x:x["popularity"], reverse=True)
     director = sortedDirectors[0] if len(sortedDirectors)>0 else {"name":"Unknown"}
