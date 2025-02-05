@@ -1,3 +1,7 @@
+import os
+
+from dotenv import load_dotenv
+import requests
 from app import database, models
 from datetime import datetime, timedelta
 import json, random
@@ -12,12 +16,12 @@ def is_guess_right(movie,id,media):
     if movie.tmdbid == id and movie.media == media:
         return True
 
-def check_param(day, param):
+def check_param(game, param, room_type):
     response = {"isValid": False, "detail":""}
     isGuess = is_it_guess(param["media"],param["tmdbid"])
-    if day is None:
+    if game is None:
         response["detail"]="Day not found"
-    elif day.movie is None:
+    elif room_type == "day" and game.movie is None:
         response["detail"]="Movie not found"
     elif param["media"] is None and param["tmdbid"] is not None:
         response["detail"]= "Missing media parameter"
@@ -43,24 +47,26 @@ def message_to_send(movie,day_id,param):
         message["poster_path"]= movie.poster_path
         message["media"]= movie.media
         message["isRight"]= True
-        process_stats(day_id,param["hint"],True)
+        if day_id is not None:
+            process_stats(day_id,param["hint"],True)
     else:
         match param["hint"]:
             case 0:
-                message["hint"]=movie.media
+                message["hint"]= movie.hint1 if movie.get("hint1") else movie.media
             case 1:
-                message["hint"]= [movie.actor1,movie.actor2,movie.actor3]
+                message["hint"]= movie.hint2 if movie.get("hint2") else [movie.actor1,movie.actor2,movie.actor3]
             case 2:
-                message["hint"]=movie.director
+                message["hint"]= movie.hint3 if movie.get("hint3") else movie.director
             case 3:
-                message["hint"] = movie.overview
+                message["hint"] = movie.hint4 if movie.get("hint4") else movie.overview
             case _:
                 message["original_title"]= movie.original_title
                 message["release_date"]= movie.release_date
                 message["poster_path"] =movie.poster_path
                 message["media"] = movie.media
                 message["isRight"] = False
-                process_stats(day_id,4,False)
+                if day_id is not None:
+                    process_stats(day_id,4,False)
     return message
 
 def process_stats(day_id,hint,is_right):

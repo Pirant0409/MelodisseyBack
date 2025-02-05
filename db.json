@@ -1,1358 +1,1358 @@
 {
     "days": [
         {
-            "media": "movie",
-            "available_date": "2025-01-15",
             "tmdbid": 238,
             "id": 1,
-            "ytbid": "Flb01Ni3p3M"
+            "ytbid": "Flb01Ni3p3M",
+            "available_date": "2025-01-15",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-01-16",
             "tmdbid": 105,
             "id": 2,
-            "ytbid": "LpbHlXPmmcE"
+            "ytbid": "LpbHlXPmmcE",
+            "available_date": "2025-01-16",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-01-17",
             "tmdbid": 157336,
             "id": 3,
-            "ytbid": "UDVtMYqUAyw"
+            "ytbid": "UDVtMYqUAyw",
+            "available_date": "2025-01-17",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-01-18",
             "tmdbid": 354912,
             "id": 4,
-            "ytbid": "MalsRkzmnWU"
+            "ytbid": "MalsRkzmnWU",
+            "available_date": "2025-01-18",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-01-19",
             "tmdbid": 122917,
             "id": 5,
-            "ytbid": "TWVR6W6wJ_0"
+            "ytbid": "TWVR6W6wJ_0",
+            "available_date": "2025-01-19",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-01-20",
             "tmdbid": 383498,
             "id": 6,
-            "ytbid": "ZK31B6zkGec"
+            "ytbid": "ZK31B6zkGec",
+            "available_date": "2025-01-20",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-01-21",
             "tmdbid": 10138,
             "id": 7,
-            "ytbid": "Yo9LK2dH8XM"
+            "ytbid": "Yo9LK2dH8XM",
+            "available_date": "2025-01-21",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-01-22",
             "tmdbid": 102382,
             "id": 8,
-            "ytbid": "x6UZfZx3ChY"
+            "ytbid": "x6UZfZx3ChY",
+            "available_date": "2025-01-22",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-01-23",
             "tmdbid": 329865,
             "id": 9,
-            "ytbid": "EDMe_nUpzMM"
+            "ytbid": "EDMe_nUpzMM",
+            "available_date": "2025-01-23",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-01-24",
             "tmdbid": 150540,
             "id": 10,
-            "ytbid": "32lI1Z1MBx0"
+            "ytbid": "32lI1Z1MBx0",
+            "available_date": "2025-01-24",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-01-25",
             "tmdbid": 244786,
             "id": 11,
-            "ytbid": "-jAtHf9RA4w"
+            "ytbid": "-jAtHf9RA4w",
+            "available_date": "2025-01-25",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-01-26",
             "tmdbid": 335984,
             "id": 12,
-            "ytbid": "XYdc9butRXI"
+            "ytbid": "XYdc9butRXI",
+            "available_date": "2025-01-26",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-01-27",
             "tmdbid": 286217,
             "id": 13,
-            "ytbid": "mYY02-XIsD0"
+            "ytbid": "mYY02-XIsD0",
+            "available_date": "2025-01-27",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-01-28",
             "tmdbid": 181808,
             "id": 14,
-            "ytbid": "YIIvAoHIsPQ"
+            "ytbid": "YIIvAoHIsPQ",
+            "available_date": "2025-01-28",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-01-29",
             "tmdbid": 109445,
             "id": 15,
-            "ytbid": "moSFlvxnbgk"
+            "ytbid": "moSFlvxnbgk",
+            "available_date": "2025-01-29",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-01-30",
             "tmdbid": 168259,
             "id": 16,
-            "ytbid": "RgKAFK5djSk"
+            "ytbid": "RgKAFK5djSk",
+            "available_date": "2025-01-30",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-01-31",
             "tmdbid": 324786,
             "id": 17,
-            "ytbid": "duPXV-OsfEU"
+            "ytbid": "duPXV-OsfEU",
+            "available_date": "2025-01-31",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-02-01",
             "tmdbid": 131631,
             "id": 18,
-            "ytbid": "F3hTW9e20d8"
+            "ytbid": "F3hTW9e20d8",
+            "available_date": "2025-02-01",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-02-02",
             "tmdbid": 102899,
             "id": 19,
-            "ytbid": "O_5NwVy8L5M"
+            "ytbid": "O_5NwVy8L5M",
+            "available_date": "2025-02-02",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-02-03",
             "tmdbid": 177572,
             "id": 20,
-            "ytbid": "Y4o_8zbelwY"
+            "ytbid": "Y4o_8zbelwY",
+            "available_date": "2025-02-03",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-02-04",
             "tmdbid": 12445,
             "id": 21,
-            "ytbid": "WsNJe9fy7Sc"
+            "ytbid": "WsNJe9fy7Sc",
+            "available_date": "2025-02-04",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-02-05",
             "tmdbid": 299537,
             "id": 22,
-            "ytbid": "PdIIrxJyezE"
+            "ytbid": "PdIIrxJyezE",
+            "available_date": "2025-02-05",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-02-06",
             "tmdbid": 284052,
             "id": 23,
-            "ytbid": "O6Gkdme2bck"
+            "ytbid": "O6Gkdme2bck",
+            "available_date": "2025-02-06",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-02-07",
             "tmdbid": 62177,
             "id": 24,
-            "ytbid": "RcmWV7InU"
+            "ytbid": "RcmWV7InU",
+            "available_date": "2025-02-07",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-02-08",
             "tmdbid": 198663,
             "id": 25,
-            "ytbid": "0n58DBOjDKg"
+            "ytbid": "0n58DBOjDKg",
+            "available_date": "2025-02-08",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-02-09",
             "tmdbid": 262500,
             "id": 26,
-            "ytbid": "iJCc3LL-Fyw"
+            "ytbid": "iJCc3LL-Fyw",
+            "available_date": "2025-02-09",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-02-10",
             "tmdbid": 281957,
             "id": 27,
-            "ytbid": "Czv8J1W4yYU"
+            "ytbid": "Czv8J1W4yYU",
+            "available_date": "2025-02-10",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-02-11",
             "tmdbid": 37799,
             "id": 28,
-            "ytbid": "9SBNCYkSceU"
+            "ytbid": "9SBNCYkSceU",
+            "available_date": "2025-02-11",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-02-12",
             "tmdbid": 140607,
             "id": 29,
-            "ytbid": "pcegZZfjx4U"
+            "ytbid": "pcegZZfjx4U",
+            "available_date": "2025-02-12",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-02-13",
             "tmdbid": 1726,
             "id": 30,
-            "ytbid": "8aQRq9hhekA"
+            "ytbid": "8aQRq9hhekA",
+            "available_date": "2025-02-13",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-02-14",
             "tmdbid": 58,
             "id": 31,
-            "ytbid": "Tjp8cj8Vzyo"
+            "ytbid": "Tjp8cj8Vzyo",
+            "available_date": "2025-02-14",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-02-15",
             "tmdbid": 14160,
             "id": 32,
-            "ytbid": "2rn-vMbFglI"
+            "ytbid": "2rn-vMbFglI",
+            "available_date": "2025-02-15",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-02-16",
             "tmdbid": 129,
             "id": 33,
-            "ytbid": "fawhjImDdJA"
+            "ytbid": "fawhjImDdJA",
+            "available_date": "2025-02-16",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-02-17",
             "tmdbid": 694,
             "id": 34,
-            "ytbid": "pylfy_L6Bjs"
+            "ytbid": "pylfy_L6Bjs",
+            "available_date": "2025-02-17",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-02-18",
             "tmdbid": 155,
             "id": 35,
-            "ytbid": "QtHO0P4bKrY"
+            "ytbid": "QtHO0P4bKrY",
+            "available_date": "2025-02-18",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-02-19",
             "tmdbid": 280,
             "id": 36,
-            "ytbid": "CnQm2_cAZvo"
+            "ytbid": "CnQm2_cAZvo",
+            "available_date": "2025-02-19",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-02-20",
             "tmdbid": 118,
             "id": 37,
-            "ytbid": "CPOObJujnW4"
+            "ytbid": "CPOObJujnW4",
+            "available_date": "2025-02-20",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-02-21",
             "tmdbid": 4935,
             "id": 38,
-            "ytbid": "HMGetv40FkI"
+            "ytbid": "HMGetv40FkI",
+            "available_date": "2025-02-21",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-02-22",
             "tmdbid": 9325,
             "id": 39,
-            "ytbid": "6BH-Rxd-NBo"
+            "ytbid": "6BH-Rxd-NBo",
+            "available_date": "2025-02-22",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-02-23",
             "tmdbid": 11,
             "id": 40,
-            "ytbid": "No ytbid"
+            "ytbid": "No ytbid",
+            "available_date": "2025-02-23",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-02-24",
             "tmdbid": 948,
             "id": 41,
-            "ytbid": "No ytbid"
+            "ytbid": "No ytbid",
+            "available_date": "2025-02-24",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-02-25",
             "tmdbid": 165,
             "id": 42,
-            "ytbid": "No ytbid"
+            "ytbid": "No ytbid",
+            "available_date": "2025-02-25",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-02-26",
             "tmdbid": 679,
             "id": 43,
-            "ytbid": "No ytbid"
+            "ytbid": "No ytbid",
+            "available_date": "2025-02-26",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-02-27",
             "tmdbid": 620,
             "id": 44,
-            "ytbid": "No ytbid"
+            "ytbid": "No ytbid",
+            "available_date": "2025-02-27",
+            "media": "movie"
         },
         {
-            "media": "movie",
-            "available_date": "2025-02-28",
             "tmdbid": 1892,
             "id": 45,
-            "ytbid": "No ytbid"
+            "ytbid": "No ytbid",
+            "available_date": "2025-02-28",
+            "media": "movie"
         }
     ],
     "stats": [
         {
-            "first_guess": 1,
-            "second_guess": 0,
-            "fourth_guess": 1,
-            "lost": 0,
             "third_guess": 0,
             "day_id": 1,
             "fifth_guess": 0,
-            "total_guesses": 2
+            "total_guesses": 2,
+            "first_guess": 1,
+            "second_guess": 0,
+            "fourth_guess": 1,
+            "lost": 0
         },
         {
-            "first_guess": 0,
-            "second_guess": 0,
-            "fourth_guess": 0,
-            "lost": 2,
             "third_guess": 0,
             "day_id": 2,
             "fifth_guess": 0,
-            "total_guesses": 2
-        },
-        {
-            "first_guess": 1,
+            "total_guesses": 2,
+            "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 2
+        },
+        {
             "third_guess": 0,
             "day_id": 3,
             "fifth_guess": 1,
-            "total_guesses": 2
-        },
-        {
-            "first_guess": 0,
-            "second_guess": 1,
-            "fourth_guess": 0,
-            "lost": 0,
-            "third_guess": 0,
-            "day_id": 4,
-            "fifth_guess": 1,
-            "total_guesses": 2
-        },
-        {
-            "first_guess": 0,
-            "second_guess": 0,
-            "fourth_guess": 0,
-            "lost": 1,
-            "third_guess": 0,
-            "day_id": 5,
-            "fifth_guess": 1,
-            "total_guesses": 2
-        },
-        {
-            "first_guess": 0,
-            "second_guess": 0,
-            "fourth_guess": 1,
-            "lost": 0,
-            "third_guess": 0,
-            "day_id": 6,
-            "fifth_guess": 0,
-            "total_guesses": 1
-        },
-        {
-            "first_guess": 0,
-            "second_guess": 1,
-            "fourth_guess": 0,
-            "lost": 0,
-            "third_guess": 0,
-            "day_id": 7,
-            "fifth_guess": 0,
-            "total_guesses": 1
-        },
-        {
-            "first_guess": 0,
-            "second_guess": 0,
-            "fourth_guess": 0,
-            "lost": 1,
-            "third_guess": 0,
-            "day_id": 8,
-            "fifth_guess": 0,
-            "total_guesses": 1
-        },
-        {
-            "first_guess": 0,
-            "second_guess": 0,
-            "fourth_guess": 1,
-            "lost": 0,
-            "third_guess": 0,
-            "day_id": 9,
-            "fifth_guess": 0,
-            "total_guesses": 1
-        },
-        {
-            "first_guess": 0,
-            "second_guess": 0,
-            "fourth_guess": 0,
-            "lost": 0,
-            "third_guess": 0,
-            "day_id": 10,
-            "fifth_guess": 1,
-            "total_guesses": 1
-        },
-        {
-            "first_guess": 0,
-            "second_guess": 1,
-            "fourth_guess": 0,
-            "lost": 0,
-            "third_guess": 0,
-            "day_id": 11,
-            "fifth_guess": 0,
-            "total_guesses": 1
-        },
-        {
-            "first_guess": 0,
-            "second_guess": 0,
-            "fourth_guess": 0,
-            "lost": 1,
-            "third_guess": 0,
-            "day_id": 12,
-            "fifth_guess": 0,
-            "total_guesses": 1
-        },
-        {
-            "first_guess": 0,
-            "second_guess": 0,
-            "fourth_guess": 0,
-            "lost": 0,
-            "third_guess": 0,
-            "day_id": 13,
-            "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
-            "first_guess": 0,
-            "second_guess": 0,
-            "fourth_guess": 0,
-            "lost": 0,
-            "third_guess": 0,
-            "day_id": 14,
-            "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
+            "total_guesses": 2,
             "first_guess": 1,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
+            "third_guess": 0,
+            "day_id": 4,
+            "fifth_guess": 1,
+            "total_guesses": 2,
+            "first_guess": 0,
+            "second_guess": 1,
+            "fourth_guess": 0,
+            "lost": 0
+        },
+        {
+            "third_guess": 0,
+            "day_id": 5,
+            "fifth_guess": 1,
+            "total_guesses": 2,
+            "first_guess": 0,
+            "second_guess": 0,
+            "fourth_guess": 0,
+            "lost": 1
+        },
+        {
+            "third_guess": 0,
+            "day_id": 6,
+            "fifth_guess": 0,
+            "total_guesses": 1,
+            "first_guess": 0,
+            "second_guess": 0,
+            "fourth_guess": 1,
+            "lost": 0
+        },
+        {
+            "third_guess": 0,
+            "day_id": 7,
+            "fifth_guess": 0,
+            "total_guesses": 1,
+            "first_guess": 0,
+            "second_guess": 1,
+            "fourth_guess": 0,
+            "lost": 0
+        },
+        {
+            "third_guess": 0,
+            "day_id": 8,
+            "fifth_guess": 0,
+            "total_guesses": 1,
+            "first_guess": 0,
+            "second_guess": 0,
+            "fourth_guess": 0,
+            "lost": 1
+        },
+        {
+            "third_guess": 0,
+            "day_id": 9,
+            "fifth_guess": 0,
+            "total_guesses": 1,
+            "first_guess": 0,
+            "second_guess": 0,
+            "fourth_guess": 1,
+            "lost": 0
+        },
+        {
+            "third_guess": 0,
+            "day_id": 10,
+            "fifth_guess": 1,
+            "total_guesses": 1,
+            "first_guess": 0,
+            "second_guess": 0,
+            "fourth_guess": 0,
+            "lost": 0
+        },
+        {
+            "third_guess": 0,
+            "day_id": 11,
+            "fifth_guess": 0,
+            "total_guesses": 1,
+            "first_guess": 0,
+            "second_guess": 1,
+            "fourth_guess": 0,
+            "lost": 0
+        },
+        {
+            "third_guess": 0,
+            "day_id": 12,
+            "fifth_guess": 0,
+            "total_guesses": 1,
+            "first_guess": 0,
+            "second_guess": 0,
+            "fourth_guess": 0,
+            "lost": 1
+        },
+        {
+            "third_guess": 0,
+            "day_id": 13,
+            "fifth_guess": 1,
+            "total_guesses": 1,
+            "first_guess": 0,
+            "second_guess": 0,
+            "fourth_guess": 0,
+            "lost": 0
+        },
+        {
+            "third_guess": 0,
+            "day_id": 14,
+            "fifth_guess": 0,
+            "total_guesses": 1,
+            "first_guess": 1,
+            "second_guess": 0,
+            "fourth_guess": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 15,
             "fifth_guess": 0,
-            "total_guesses": 1
-        },
-        {
-            "first_guess": 0,
+            "total_guesses": 1,
+            "first_guess": 1,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 16,
             "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
-            "first_guess": 0,
+            "total_guesses": 1,
+            "first_guess": 1,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 17,
-            "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
+            "fifth_guess": 1,
+            "total_guesses": 1,
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 18,
             "fifth_guess": 0,
-            "total_guesses": 0
+            "total_guesses": 1,
+            "first_guess": 0,
+            "second_guess": 1,
+            "fourth_guess": 0,
+            "lost": 0
         },
         {
-            "first_guess": 0,
-            "second_guess": 0,
-            "fourth_guess": 0,
-            "lost": 0,
             "third_guess": 0,
             "day_id": 19,
-            "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
+            "fifth_guess": 1,
+            "total_guesses": 1,
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 20,
-            "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
+            "fifth_guess": 1,
+            "total_guesses": 1,
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 21,
             "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
+            "total_guesses": 1,
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 1
+        },
+        {
             "third_guess": 0,
             "day_id": 22,
             "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
+            "total_guesses": 0,
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 23,
             "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
+            "total_guesses": 0,
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 24,
             "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
+            "total_guesses": 0,
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 25,
             "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
+            "total_guesses": 0,
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 26,
             "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
+            "total_guesses": 0,
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 27,
             "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
+            "total_guesses": 0,
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 28,
             "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
+            "total_guesses": 0,
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 29,
             "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
+            "total_guesses": 0,
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 30,
             "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
+            "total_guesses": 0,
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 31,
             "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
+            "total_guesses": 0,
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 32,
             "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
+            "total_guesses": 0,
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 33,
             "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
+            "total_guesses": 0,
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 34,
             "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
+            "total_guesses": 0,
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 35,
             "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
+            "total_guesses": 0,
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 36,
             "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
+            "total_guesses": 0,
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 37,
             "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
+            "total_guesses": 0,
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 38,
             "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
+            "total_guesses": 0,
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 39,
             "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
+            "total_guesses": 0,
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 40,
             "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
+            "total_guesses": 0,
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 41,
             "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
+            "total_guesses": 0,
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 42,
             "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
+            "total_guesses": 0,
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 43,
             "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
+            "total_guesses": 0,
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 44,
             "fifth_guess": 0,
-            "total_guesses": 0
-        },
-        {
+            "total_guesses": 0,
             "first_guess": 0,
             "second_guess": 0,
             "fourth_guess": 0,
-            "lost": 0,
+            "lost": 0
+        },
+        {
             "third_guess": 0,
             "day_id": 45,
             "fifth_guess": 0,
-            "total_guesses": 0
+            "total_guesses": 0,
+            "first_guess": 0,
+            "second_guess": 0,
+            "fourth_guess": 0,
+            "lost": 0
         }
     ],
     "movies": [
         {
+            "release_date": "1971-03-14",
+            "poster_path": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+            "actor2": "Al Pacino",
+            "director": "Francis Ford Coppola",
             "original_title": "The Godfather",
             "tmdbid": 238,
             "media": "movie",
             "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American ______ crime family.",
             "actor1": "Marlon Brando",
             "actor3": "James Caan",
-            "collection": "The Godfather Collection",
-            "release_date": "1971-03-14",
-            "poster_path": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
-            "actor2": "Al Pacino",
-            "director": "Francis Ford Coppola"
+            "collection": "The Godfather Collection"
         },
         {
+            "release_date": "1985-07-03",
+            "poster_path": "https://image.tmdb.org/t/p/w500/fNOH9f1aA7XRTzl1sAOx9iF553Q.jpg",
+            "actor2": "Christopher Lloyd",
+            "director": "Robert Zemeckis",
             "original_title": "Back to the Future",
             "tmdbid": 105,
             "media": "movie",
             "overview": "Eighties teenager ______ is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest.",
             "actor1": "Michael J. Fox",
             "actor3": "Crispin Glover",
-            "collection": "Back to the Future Collection",
-            "release_date": "1985-07-03",
-            "poster_path": "https://image.tmdb.org/t/p/w500/fNOH9f1aA7XRTzl1sAOx9iF553Q.jpg",
-            "actor2": "Christopher Lloyd",
-            "director": "Robert Zemeckis"
+            "collection": "Back to the Future Collection"
         },
         {
+            "release_date": "2014-11-05",
+            "poster_path": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+            "actor2": "Alexander Michael Helisek",
+            "director": "Christopher Nolan",
             "original_title": "Interstellar",
             "tmdbid": 157336,
             "media": "movie",
             "overview": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an ______ voyage.",
             "actor1": "Ryan Irving",
             "actor3": "Joseph Oliveira",
-            "collection": "None",
-            "release_date": "2014-11-05",
-            "poster_path": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
-            "actor2": "Alexander Michael Helisek",
-            "director": "Christopher Nolan"
+            "collection": "None"
         },
         {
+            "release_date": "2017-10-27",
+            "poster_path": "https://image.tmdb.org/t/p/w500/gGEsBPAijhVUFoiNpgZXqRVWJt2.jpg",
+            "actor2": "Ruth Zalduondo",
+            "director": "Lee Unkrich",
             "original_title": "Coco",
             "tmdbid": 354912,
             "media": "movie",
             "overview": "Despite his family\u2019s baffling generations-old ban on music, ______ dreams of becoming an accomplished musician like his idol, Ernesto de la Cruz. ",
             "actor1": "James Zavaleta",
             "actor3": "Lee Unkrich",
-            "collection": "None",
-            "release_date": "2017-10-27",
-            "poster_path": "https://image.tmdb.org/t/p/w500/gGEsBPAijhVUFoiNpgZXqRVWJt2.jpg",
-            "actor2": "Ruth Zalduondo",
-            "director": "Lee Unkrich"
+            "collection": "None"
         },
         {
+            "release_date": "2014-12-10",
+            "poster_path": "https://image.tmdb.org/t/p/w500/xT98tLqatZPQApyRmlPL12LtiWp.jpg",
+            "actor2": "Vanessa Cater",
+            "director": "Peter Jackson",
             "original_title": "The Hobbit: The Battle of the Five Armies",
             "tmdbid": 122917,
             "media": "movie",
             "overview": "Immediately after the events of The Desolation of Smaug, ______ and the dwarves try to defend Erebor's mountain of treasure from others who claim it: the men of the ruined Laketown and the elves of Mirkwood.",
             "actor1": "Jacob Tomuri",
             "actor3": "Terry Notary",
-            "collection": "The Hobbit Collection",
-            "release_date": "2014-12-10",
-            "poster_path": "https://image.tmdb.org/t/p/w500/xT98tLqatZPQApyRmlPL12LtiWp.jpg",
-            "actor2": "Vanessa Cater",
-            "director": "Peter Jackson"
+            "collection": "The Hobbit Collection"
         },
         {
+            "release_date": "2018-05-10",
+            "poster_path": "https://image.tmdb.org/t/p/w500/to0spRl1CMDvyUbOnbb4fTk3VAd.jpg",
+            "actor2": "Scott Vickaryous",
+            "director": "James Mangold",
             "original_title": "Deadpool 2",
             "tmdbid": 383498,
             "media": "movie",
             "overview": "Wisecracking mercenary ______ battles the evil and powerful Cable and other bad guys to save a boy's life.",
             "actor1": "Dan Zachary",
             "actor3": "Kodi Smit-McPhee",
-            "collection": "Deadpool Collection",
-            "release_date": "2018-05-10",
-            "poster_path": "https://image.tmdb.org/t/p/w500/to0spRl1CMDvyUbOnbb4fTk3VAd.jpg",
-            "actor2": "Scott Vickaryous",
-            "director": "James Mangold"
+            "collection": "Deadpool Collection"
         },
         {
+            "release_date": "2010-04-28",
+            "poster_path": "https://image.tmdb.org/t/p/w500/6WBeq4fCfn7AN0o21W9qNcRF2l9.jpg",
+            "actor2": "Seth Green",
+            "director": "Chad Stahelski",
             "original_title": "Iron Man 2",
             "tmdbid": 10138,
             "media": "movie",
             "overview": "With the world now aware of his dual life as the armored superhero ______, billionaire inventor ______ faces pressure from the government, the press and the public to share his technology with the military.",
             "actor1": "Max Favreau",
             "actor3": "Matt McColm",
-            "collection": "Iron Man Collection",
-            "release_date": "2010-04-28",
-            "poster_path": "https://image.tmdb.org/t/p/w500/6WBeq4fCfn7AN0o21W9qNcRF2l9.jpg",
-            "actor2": "Seth Green",
-            "director": "Chad Stahelski"
+            "collection": "Iron Man Collection"
         },
         {
+            "release_date": "2014-04-16",
+            "poster_path": "https://image.tmdb.org/t/p/w500/bU7nTmvmy0h3VUP01v1T2imgH6N.jpg",
+            "actor2": "Amyrh Harris",
+            "director": "BJ Davis",
             "original_title": "The Amazing Spider-Man 2",
             "tmdbid": 102382,
             "media": "movie",
             "overview": "For ______, life is busy. Between taking out the bad guys as ______ and spending time with the person he loves, Gwen Stacy, high school graduation cannot come quickly enough. ______ has not forgotten about the promise he made to Gwen\u2019s father to protect her by staying away, but that is a promise he cannot keep. Things will change for Peter when a new villain, Electro, emerges, an old friend, Harry Osborn, returns, and Peter uncovers new clues about his past.",
             "actor1": "Craig 'Radio Man' Castaldo",
             "actor3": "Rick Bolander",
-            "collection": "The Amazing Spider-Man Collection",
-            "release_date": "2014-04-16",
-            "poster_path": "https://image.tmdb.org/t/p/w500/bU7nTmvmy0h3VUP01v1T2imgH6N.jpg",
-            "actor2": "Amyrh Harris",
-            "director": "BJ Davis"
+            "collection": "The Amazing Spider-Man Collection"
         },
         {
+            "release_date": "2016-11-10",
+            "poster_path": "https://image.tmdb.org/t/p/w500/6DBf1xODKqkqQMq1DvXWMb0fxR8.jpg",
+            "actor2": "Akul Dang",
+            "director": "Denis Villeneuve",
             "original_title": "Arrival",
             "tmdbid": 329865,
             "media": "movie",
             "overview": "Taking place after alien crafts land around the world, an expert linguist is recruited by the military to determine whether they come in peace or are a threat.",
             "actor1": "Frank Fiola",
             "actor3": "Alexander Da Mota",
-            "collection": "None",
-            "release_date": "2016-11-10",
-            "poster_path": "https://image.tmdb.org/t/p/w500/6DBf1xODKqkqQMq1DvXWMb0fxR8.jpg",
-            "actor2": "Akul Dang",
-            "director": "Denis Villeneuve"
+            "collection": "None"
         },
         {
+            "release_date": "2015-06-17",
+            "poster_path": "https://image.tmdb.org/t/p/w500/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg",
+            "actor2": "Jim Ward",
+            "director": "Pete Docter",
             "original_title": "Inside Out",
             "tmdbid": 150540,
             "media": "movie",
             "overview": "When 11-year-old Riley moves to a new city, her Emotions team up to help her through the transition.",
             "actor1": "Dashell Zamm",
             "actor3": "Patrick Seitz",
-            "collection": "Inside Out Collection",
-            "release_date": "2015-06-17",
-            "poster_path": "https://image.tmdb.org/t/p/w500/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg",
-            "actor2": "Jim Ward",
-            "director": "Pete Docter"
+            "collection": "Inside Out Collection"
         },
         {
+            "release_date": "2014-10-10",
+            "poster_path": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+            "actor2": "Daniel Weidlein",
+            "director": "Damien Chazelle",
             "original_title": "Whiplash",
             "tmdbid": 244786,
             "media": "movie",
             "overview": "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.",
             "actor1": "Nicholas Namini",
             "actor3": "Michelle Ruff",
-            "collection": "None",
-            "release_date": "2014-10-10",
-            "poster_path": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
-            "actor2": "Daniel Weidlein",
-            "director": "Damien Chazelle"
+            "collection": "None"
         },
         {
+            "release_date": "2017-10-04",
+            "poster_path": "https://image.tmdb.org/t/p/w500/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg",
+            "actor2": "Harrison Ford",
+            "director": "Ridley Scott",
             "original_title": "Blade Runner 2049",
             "tmdbid": 335984,
             "media": "movie",
             "overview": "Thirty years after the events of the first film, a new ______, LAPD Officer K, unearths a long-buried secret that has the potential to plunge what's left of society into chaos.",
-            "actor1": "Frank Sinatra",
-            "actor3": "Samuel Brown",
-            "collection": "Blade Runner Collection",
-            "release_date": "2017-10-04",
-            "poster_path": "https://image.tmdb.org/t/p/w500/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg",
-            "actor2": "Mary Lukasiewicz",
-            "director": "Ridley Scott"
+            "actor1": "Ryan Gosling",
+            "actor3": "Ana de Armas",
+            "collection": "Blade Runner Collection"
         },
         {
+            "release_date": "2015-09-30",
+            "poster_path": "https://image.tmdb.org/t/p/w500/3ndAx3weG6KDkJIRMCi5vXX6Dyb.jpg",
+            "actor2": "Jessica Chastain",
+            "director": "Ridley Scott",
             "original_title": "The Martian",
             "tmdbid": 286217,
             "media": "movie",
             "overview": "During a manned mission to Mars, Astronaut Mark Watney is presumed dead after a fierce storm and left behind by his crew.",
-            "actor1": "Naomi Scott",
-            "actor3": "Bal\u00e1zs Medveczky",
-            "collection": "None",
-            "release_date": "2015-09-30",
-            "poster_path": "https://image.tmdb.org/t/p/w500/3ndAx3weG6KDkJIRMCi5vXX6Dyb.jpg",
-            "actor2": "Dora Endre",
-            "director": "Ridley Scott"
+            "actor1": "Matt Damon",
+            "actor3": "Kristen Wiig",
+            "collection": "None"
         },
         {
+            "release_date": "2017-12-13",
+            "poster_path": "https://image.tmdb.org/t/p/w500/ySaaKHOLAQU5HoZqWmzDIj1VvZ1.jpg",
+            "actor2": "Carrie Fisher",
+            "director": "George Lucas",
             "original_title": "Star Wars: The Last Jedi",
             "tmdbid": 181808,
             "media": "movie",
             "overview": "Rey develops her newly discovered abilities with the guidance of ______, who is unsettled by the strength of her powers.",
-            "actor1": "Karanja Yorke",
-            "actor3": "William Willoughby",
-            "collection": "Star Wars Collection",
-            "release_date": "2017-12-13",
-            "poster_path": "https://image.tmdb.org/t/p/w500/ySaaKHOLAQU5HoZqWmzDIj1VvZ1.jpg",
-            "actor2": "Oscar Wright",
-            "director": "George Lucas"
+            "actor1": "Mark Hamill",
+            "actor3": "Adam Driver",
+            "collection": "Star Wars Collection"
         },
         {
+            "release_date": "2013-11-20",
+            "poster_path": "https://image.tmdb.org/t/p/w500/mmWheq3cFI4tYrZDiATOkCNTqgK.jpg",
+            "actor2": "Idina Menzel",
+            "director": "Chris Buck",
             "original_title": "Frozen",
             "tmdbid": 109445,
             "media": "movie",
             "overview": "Young princess Anna of Arendelle dreams about finding true love at her sister Elsa\u2019s coronation. Fate takes her on a dangerous journey in an attempt to end the eternal winter that has fallen over the kingdom.",
-            "actor1": "Jack Whitehall",
-            "actor3": "Pepper Sweeney",
-            "collection": "Frozen Collection",
-            "release_date": "2013-11-20",
-            "poster_path": "https://image.tmdb.org/t/p/w500/mmWheq3cFI4tYrZDiATOkCNTqgK.jpg",
-            "actor2": "Fred Tatasciore",
-            "director": "Chris Buck"
+            "actor1": "Kristen Bell",
+            "actor3": "Jonathan Groff",
+            "collection": "Frozen Collection"
         },
         {
+            "release_date": "2015-04-01",
+            "poster_path": "https://image.tmdb.org/t/p/w500/wurKlC3VKUgcfsn0K51MJYEleS2.jpg",
+            "actor2": "Paul Walker",
+            "director": "James Wan",
             "original_title": "Furious 7",
             "tmdbid": 168259,
             "media": "movie",
             "overview": "Deckard Shaw seeks revenge against ______ and his family for his comatose brother.",
-            "actor1": "Mitchell Roach",
-            "actor3": "Aaron J. Brooks",
-            "collection": "The Fast and the Furious Collection",
-            "release_date": "2015-04-01",
-            "poster_path": "https://image.tmdb.org/t/p/w500/wurKlC3VKUgcfsn0K51MJYEleS2.jpg",
-            "actor2": "Caitlin Dechelle",
-            "director": "James Wan"
+            "actor1": "Vin Diesel",
+            "actor3": "Jason Statham",
+            "collection": "The Fast and the Furious Collection"
         },
         {
+            "release_date": "2016-10-07",
+            "poster_path": "https://image.tmdb.org/t/p/w500/fTuxNlgEm04PPFkr1xfK94Jn8BW.jpg",
+            "actor2": "Sam Worthington",
+            "director": "P.J. Voeten",
             "original_title": "Hacksaw Ridge",
             "tmdbid": 324786,
             "media": "movie",
             "overview": "WWII American Army Medic Desmond T. Doss, who served during the Battle of Okinawa, refuses to kill people and becomes the first Conscientious Objector in American history to receive the Congressional Medal of Honor.",
-            "actor1": "Yasushi Asaya",
-            "actor3": "Honsen Haga",
-            "collection": "None",
-            "release_date": "2016-10-07",
-            "poster_path": "https://image.tmdb.org/t/p/w500/fTuxNlgEm04PPFkr1xfK94Jn8BW.jpg",
-            "actor2": "Milan Pulvermacher",
-            "director": "P.J. Voeten"
+            "actor1": "Andrew Garfield",
+            "actor3": "Vince Vaughn",
+            "collection": "None"
         },
         {
+            "release_date": "2014-11-19",
+            "poster_path": "https://image.tmdb.org/t/p/w500/4FAA18ZIja70d1Tu5hr5cj2q1sB.jpg",
+            "actor2": "Josh Hutcherson",
+            "director": "Francis Lawrence",
             "original_title": "The Hunger Games: Mockingjay - Part 1",
             "tmdbid": 131631,
             "media": "movie",
             "overview": "______ reluctantly becomes the symbol of a mass rebellion against the autocratic Capitol.",
-            "actor1": "Ryan DeLaney",
-            "actor3": "Charles White Jr.",
-            "collection": "The Hunger Games Collection",
-            "release_date": "2014-11-19",
-            "poster_path": "https://image.tmdb.org/t/p/w500/4FAA18ZIja70d1Tu5hr5cj2q1sB.jpg",
-            "actor2": "Angel Giuffria",
-            "director": "Francis Lawrence"
+            "actor1": "Jennifer Lawrence",
+            "actor3": "Liam Hemsworth",
+            "collection": "The Hunger Games Collection"
         },
         {
+            "release_date": "2015-07-14",
+            "poster_path": "https://image.tmdb.org/t/p/w500/rQRnQfUl3kfp78nCWq8Ks04vnq1.jpg",
+            "actor2": "Michael Douglas",
+            "director": "Edgar Wright",
             "original_title": "Ant-Man",
             "tmdbid": 102899,
             "media": "movie",
             "overview": "Armed with the astonishing ability to shrink in scale but increase in strength, master thief ______ must embrace his inner-hero and help his mentor, Doctor______, protect the secret behind his spectacular ______ suit from a new generation of towering threats.",
-            "actor1": "Vanessa Ross",
-            "actor3": "Raul Colon",
-            "collection": "Ant-Man Collection",
-            "release_date": "2015-07-14",
-            "poster_path": "https://image.tmdb.org/t/p/w500/rQRnQfUl3kfp78nCWq8Ks04vnq1.jpg",
-            "actor2": "Hayley Gagner",
-            "director": "Edgar Wright"
+            "actor1": "Paul Rudd",
+            "actor3": "Evangeline Lilly",
+            "collection": "Ant-Man Collection"
         },
         {
+            "release_date": "2014-10-24",
+            "poster_path": "https://image.tmdb.org/t/p/w500/2mxS4wUimwlLmI1xp6QW6NSU361.jpg",
+            "actor2": "Ryan Potter",
+            "director": "Chris Williams",
             "original_title": "Big Hero 6",
             "tmdbid": 177572,
             "media": "movie",
             "overview": "A special bond develops between plus-sized inflatable robot ______, and prodigy ______, who team up with a group of friends to form a band of high-tech heroes.",
-            "actor1": "Phil Lester",
-            "actor3": "Daniel Howell",
-            "collection": "None",
-            "release_date": "2014-10-24",
-            "poster_path": "https://image.tmdb.org/t/p/w500/2mxS4wUimwlLmI1xp6QW6NSU361.jpg",
-            "actor2": "June Christopher",
-            "director": "Chris Williams"
+            "actor1": "Scott Adsit",
+            "actor3": "Daniel Henney",
+            "collection": "None"
         },
         {
+            "release_date": "2011-07-12",
+            "poster_path": "https://image.tmdb.org/t/p/w500/c54HpQmuwXjHq2C9wmoACjxoom3.jpg",
+            "actor2": "Emma Watson",
+            "director": "David Yates",
             "original_title": "Harry Potter and the Deathly Hallows: Part 2",
             "tmdbid": 12445,
             "media": "movie",
             "overview": "______, ______ and ______ continue their quest to vanquish the evil ______ once and for all. Just as things begin to look hopeless for the young wizards, ______ discovers a trio of magical objects that endow him with powers to rival ______'s formidable skills.",
-            "actor1": "Samantha Davis",
-            "actor3": "Harrison Davis",
-            "collection": "Harry Potter Collection",
-            "release_date": "2011-07-12",
-            "poster_path": "https://image.tmdb.org/t/p/w500/c54HpQmuwXjHq2C9wmoACjxoom3.jpg",
-            "actor2": "Annabelle Davis",
-            "director": "David Yates"
+            "actor1": "Daniel Radcliffe",
+            "actor3": "Rupert Grint",
+            "collection": "Harry Potter Collection"
         },
         {
+            "release_date": "2019-03-06",
+            "poster_path": "https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
+            "actor2": "Samuel L. Jackson",
+            "director": "Ryan Fleck",
             "original_title": "Captain Marvel",
             "tmdbid": 299537,
             "media": "movie",
             "overview": "The story follows ______  as she becomes one of the universe\u2019s most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
-            "actor1": "Anthony Molinari",
-            "actor3": "Vinny O'Brien",
-            "collection": "Captain Marvel Collection",
-            "release_date": "2019-03-06",
-            "poster_path": "https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
-            "actor2": "Joey Courteau",
-            "director": "Ryan Fleck"
+            "actor1": "Brie Larson",
+            "actor3": "Ben Mendelsohn",
+            "collection": "Captain Marvel Collection"
         },
         {
+            "release_date": "2016-10-25",
+            "poster_path": "https://image.tmdb.org/t/p/w500/7WfK17BXE6szXlm4WOxfswgbdsL.jpg",
+            "actor2": "Chiwetel Ejiofor",
+            "director": "Scott Derrickson",
             "original_title": "Doctor Strange",
             "tmdbid": 284052,
             "media": "movie",
             "overview": "After his career is destroyed, a brilliant but arrogant surgeon gets a new lease on life when a sorcerer takes him under her wing and trains him to defend the world against evil.",
-            "actor1": "Tina Simmons",
-            "actor3": "Chris Hemsworth",
-            "collection": "Doctor Strange Collection",
-            "release_date": "2016-10-25",
-            "poster_path": "https://image.tmdb.org/t/p/w500/7WfK17BXE6szXlm4WOxfswgbdsL.jpg",
-            "actor2": "Samantha Russell",
-            "director": "Scott Derrickson"
+            "actor1": "Benedict Cumberbatch",
+            "actor3": "Rachel McAdams",
+            "collection": "Doctor Strange Collection"
         },
         {
+            "release_date": "2012-06-21",
+            "poster_path": "https://image.tmdb.org/t/p/w500/1XAuDtMWpL0sYSFK0R6EZate2Ux.jpg",
+            "actor2": "Emma Thompson",
+            "director": "Pete Docter",
             "original_title": "Brave",
             "tmdbid": 62177,
             "media": "movie",
             "overview": "______ is set in the mystical Scottish Highlands, where M\u00e9rida is the princess of a kingdom ruled by King Fergus and Queen Elinor. An unruly daughter and an accomplished archer, M\u00e9rida one day defies a sacred custom of the land and inadvertently brings turmoil to the kingdom.",
-            "actor1": "Callum O'Neill",
-            "actor3": "Eilidh Fraser",
-            "collection": "None",
-            "release_date": "2012-06-21",
-            "poster_path": "https://image.tmdb.org/t/p/w500/1XAuDtMWpL0sYSFK0R6EZate2Ux.jpg",
-            "actor2": "Steven Cree",
-            "director": "Pete Docter"
+            "actor1": "Kelly Macdonald",
+            "actor3": "Billy Connolly",
+            "collection": "None"
         },
         {
+            "release_date": "2014-09-10",
+            "poster_path": "https://image.tmdb.org/t/p/w500/ode14q7WtDugFDp78fo9lCsmay9.jpg",
+            "actor2": "Kaya Scodelario",
+            "director": "Wes Ball",
             "original_title": "The Maze Runner",
             "tmdbid": 198663,
             "media": "movie",
             "overview": "Set in a post-apocalyptic world, young Thomas is deposited in a community of boys after his memory is erased, soon learning they're all trapped in a ______ that will require him to join forces with fellow \u201crunners\u201d for a shot at escape.",
-            "actor1": "Tony Vo",
-            "actor3": "Giovanni Silva",
-            "collection": "The Maze Runner Collection",
-            "release_date": "2014-09-10",
-            "poster_path": "https://image.tmdb.org/t/p/w500/ode14q7WtDugFDp78fo9lCsmay9.jpg",
-            "actor2": "Nicolas Stan",
-            "director": "Wes Ball"
+            "actor1": "Dylan O'Brien",
+            "actor3": "Aml Ameen",
+            "collection": "The Maze Runner Collection"
         },
         {
+            "release_date": "2015-03-18",
+            "poster_path": "https://image.tmdb.org/t/p/w500/dP5Fb6YRfzmCQtRbHOr2kO7tJW9.jpg",
+            "actor2": "Theo James",
+            "director": "Christina Fong",
             "original_title": "Insurgent",
             "tmdbid": 262500,
             "media": "movie",
             "overview": "Beatrice Prior must confront her inner demons and continue her fight against a powerful alliance which threatens to tear her society apart.",
-            "actor1": "Jack Champion",
-            "actor3": "Arian Ash",
-            "collection": "Divergent Collection",
-            "release_date": "2015-03-18",
-            "poster_path": "https://image.tmdb.org/t/p/w500/dP5Fb6YRfzmCQtRbHOr2kO7tJW9.jpg",
-            "actor2": "Hunter Deno",
-            "director": "Christina Fong"
+            "actor1": "Shailene Woodley",
+            "actor3": "Miles Teller",
+            "collection": "Divergent Collection"
         },
         {
+            "release_date": "2015-12-25",
+            "poster_path": "https://image.tmdb.org/t/p/w500/ji3ecJphATlVgWNY0B0RVXZizdf.jpg",
+            "actor2": "Tom Hardy",
+            "director": "Brett Ratner",
             "original_title": "The Revenant",
             "tmdbid": 281957,
             "media": "movie",
             "overview": "In the 1820s, a frontiersman, Hugh Glass, sets out on a path of vengeance against those who left him for dead after a bear mauling.",
-            "actor1": "Tighe Gill",
-            "actor3": "Del Zamora",
-            "collection": "None",
-            "release_date": "2015-12-25",
-            "poster_path": "https://image.tmdb.org/t/p/w500/ji3ecJphATlVgWNY0B0RVXZizdf.jpg",
-            "actor2": "Duff Zayonce",
-            "director": "Brett Ratner"
+            "actor1": "Leonardo DiCaprio",
+            "actor3": "Domhnall Gleeson",
+            "collection": "None"
         },
         {
+            "release_date": "2010-10-01",
+            "poster_path": "https://image.tmdb.org/t/p/w500/n0ybibhJtQ5icDqTp8eRytcIHJx.jpg",
+            "actor2": "Andrew Garfield",
+            "director": "David Fincher",
             "original_title": "The Social Network",
             "tmdbid": 37799,
             "media": "movie",
             "overview": "In 2003, Harvard undergrad and computer programmer ______ begins work on a new concept that eventually turns into the global ______ ______ known as ______. Six years later, ______ is one of the youngest billionaires ever, but his unprecedented success leads to both personal and legal complications when he ends up on the receiving end of two lawsuits, one involving his former friend.",
-            "actor1": "Georgina Tolentino",
-            "actor3": "Adrienne Rusk",
-            "collection": "None",
-            "release_date": "2010-10-01",
-            "poster_path": "https://image.tmdb.org/t/p/w500/n0ybibhJtQ5icDqTp8eRytcIHJx.jpg",
-            "actor2": "Rebecca Tilney",
-            "director": "David Fincher"
+            "actor1": "Jesse Eisenberg",
+            "actor3": "Armie Hammer",
+            "collection": "None"
         },
         {
+            "release_date": "2015-12-15",
+            "poster_path": "https://image.tmdb.org/t/p/w500/wqnLdwVXoBjKibFRR5U3y0aDUhs.jpg",
+            "actor2": "Mark Hamill",
+            "director": "George Lucas",
             "original_title": "Star Wars: The Force Awakens",
             "tmdbid": 140607,
             "media": "movie",
             "overview": "Thirty years after defeating the Galactic Empire, ______ and his allies face a new threat from the evil ______ ______ and his army of ______.",
-            "actor1": "Kevin Smith",
-            "actor3": "Joe Cash",
-            "collection": "Star Wars Collection",
-            "release_date": "2015-12-15",
-            "poster_path": "https://image.tmdb.org/t/p/w500/wqnLdwVXoBjKibFRR5U3y0aDUhs.jpg",
-            "actor2": "Clare Glass",
-            "director": "George Lucas"
+            "actor1": "Harrison Ford",
+            "actor3": "Carrie Fisher",
+            "collection": "Star Wars Collection"
         },
         {
+            "release_date": "2008-04-30",
+            "poster_path": "https://image.tmdb.org/t/p/w500/78lPtwv72eTNqFW9COBYI0dWDJa.jpg",
+            "actor2": "Terrence Howard",
+            "director": "Eric Heffron",
             "original_title": "Iron Man",
             "tmdbid": 1726,
             "media": "movie",
             "overview": "After being held captive in an Afghan cave, billionaire engineer ______ creates a unique weaponized suit of armor to fight evil.",
-            "actor1": "Kristin J. Hooper",
-            "actor3": "Flavia Manes Rossi",
-            "collection": "Iron Man Collection",
-            "release_date": "2008-04-30",
-            "poster_path": "https://image.tmdb.org/t/p/w500/78lPtwv72eTNqFW9COBYI0dWDJa.jpg",
-            "actor2": "Samuel L. Jackson",
-            "director": "Eric Heffron"
+            "actor1": "Robert Downey Jr.",
+            "actor3": "Jeff Bridges",
+            "collection": "Iron Man Collection"
         },
         {
+            "release_date": "2006-07-06",
+            "poster_path": "https://image.tmdb.org/t/p/w500/uXEqmloGyP7UXAiphJUu2v2pcuE.jpg",
+            "actor2": "Orlando Bloom",
+            "director": "Gore Verbinski",
             "original_title": "Pirates of the Caribbean: Dead Man's Chest",
             "tmdbid": 58,
             "media": "movie",
             "overview": "Captain ______ works his way out of a blood debt with the ghostly Davy Jones to avoid eternal damnation.",
-            "actor1": "Hernando \"Sweepy\" Molina",
-            "actor3": "David Keyes",
-            "collection": "Pirates of the Caribbean Collection",
-            "release_date": "2006-07-06",
-            "poster_path": "https://image.tmdb.org/t/p/w500/uXEqmloGyP7UXAiphJUu2v2pcuE.jpg",
-            "actor2": "Anthony Patricio",
-            "director": "Gore Verbinski"
+            "actor1": "Johnny Depp",
+            "actor3": "Keira Knightley",
+            "collection": "Pirates of the Caribbean Collection"
         },
         {
+            "release_date": "2009-05-28",
+            "poster_path": "https://image.tmdb.org/t/p/w500/mFvoEwSfLqbcWwFsDjQebn9bzFe.jpg",
+            "actor2": "Christopher Plummer",
+            "director": "Pete Docter",
             "original_title": "Up",
             "tmdbid": 14160,
             "media": "movie",
             "overview": "Carl Fredricksen spent his entire life dreaming of exploring the globe and experiencing life to its fullest. But at age 78, life seems to have passed him by, until a twist of fate (and a persistent 8-year old Wilderness Explorer named Russell) gives him a new lease on life.",
-            "actor1": "Bob Scott",
-            "actor3": "Valerie LaPointe",
-            "collection": "None",
-            "release_date": "2009-05-28",
-            "poster_path": "https://image.tmdb.org/t/p/w500/mFvoEwSfLqbcWwFsDjQebn9bzFe.jpg",
-            "actor2": "Jan Rabson",
-            "director": "Pete Docter"
+            "actor1": "Ed Asner",
+            "actor3": "Jordan Nagai",
+            "collection": "None"
         },
         {
+            "release_date": "2001-07-20",
+            "poster_path": "https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+            "actor2": "Miyu Irino",
+            "director": "Hayao Miyazaki",
             "original_title": "Spirited Away",
             "tmdbid": 129,
             "media": "movie",
             "overview": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
-            "actor1": "Makiko Oku",
-            "actor3": "Miwa Takachi",
-            "collection": "None",
-            "release_date": "2001-07-20",
-            "poster_path": "https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
-            "actor2": "Hiromi Takeuchi",
-            "director": "Hayao Miyazaki"
+            "actor1": "Rumi Hiiragi",
+            "actor3": "Mari Natsuki",
+            "collection": "None"
         },
         {
+            "release_date": "1980-05-23",
+            "poster_path": "https://image.tmdb.org/t/p/w500/fFYAlrOudDJRYs8tvuHbUk0OGdL.jpg",
+            "actor2": "Shelley Duvall",
+            "director": "Stanley Kubrick",
             "original_title": "The Shining",
             "tmdbid": 694,
             "media": "movie",
             "overview": "Jack Torrance accepts a caretaker job at the Overlook Hotel, where he, along with his wife Wendy and their son Danny, must live isolated from the rest of the world for the winter. But they aren't prepared for the madness that lurks within.",
-            "actor1": "Barrie Holland",
-            "actor3": "Guy Standeven",
-            "collection": "The Shining Collection",
-            "release_date": "1980-05-23",
-            "poster_path": "https://image.tmdb.org/t/p/w500/fFYAlrOudDJRYs8tvuHbUk0OGdL.jpg",
-            "actor2": "Reg Thomason",
-            "director": "Stanley Kubrick"
+            "actor1": "Jack Nicholson",
+            "actor3": "Danny Lloyd",
+            "collection": "The Shining Collection"
         },
         {
+            "release_date": "2008-07-16",
+            "poster_path": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+            "actor2": "Heath Ledger",
+            "director": "Christopher Nolan",
             "original_title": "The Dark Knight",
             "tmdbid": 155,
             "media": "movie",
             "overview": "______ raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, ______ sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of ______ as the ______.",
-            "actor1": "Rick Avery",
-            "actor3": "Mike Whyte",
-            "collection": "The Dark Knight Collection",
-            "release_date": "2008-07-16",
-            "poster_path": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
-            "actor2": "Tina Simmons",
-            "director": "Christopher Nolan"
+            "actor1": "Christian Bale",
+            "actor3": "Aaron Eckhart",
+            "collection": "The Dark Knight Collection"
         },
         {
+            "release_date": "1991-07-03",
+            "poster_path": "https://image.tmdb.org/t/p/w500/wcJFUcbPfXJRXRNXNFfF0W6dpx.jpg",
+            "actor2": "Linda Hamilton",
+            "director": "James Cameron",
             "original_title": "Terminator 2: Judgment Day",
             "tmdbid": 280,
             "media": "movie",
             "overview": "Set ten years after the events of the original, James Cameron\u2019s classic sci-fi action flick tells the story of a second attempt to get rid of rebellion leader John ______, this time targeting the boy himself. However, the rebellion has sent a reprogrammed ______ to protect ______.",
-            "actor1": "Steven Stear",
-            "actor3": "Jennifer Jacono",
-            "collection": "The Terminator Collection",
-            "release_date": "1991-07-03",
-            "poster_path": "https://image.tmdb.org/t/p/w500/wcJFUcbPfXJRXRNXNFfF0W6dpx.jpg",
-            "actor2": "Takao Komine",
-            "director": "James Cameron"
+            "actor1": "Arnold Schwarzenegger",
+            "actor3": "Edward Furlong",
+            "collection": "The Terminator Collection"
         },
         {
+            "release_date": "2005-07-13",
+            "poster_path": "https://image.tmdb.org/t/p/w500/iKP6wg3c6COUe8gYutoGG7qcPnO.jpg",
+            "actor2": "Freddie Highmore",
+            "director": "Tim Burton",
             "original_title": "Charlie and the Chocolate Factory",
             "tmdbid": 118,
             "media": "movie",
             "overview": "A young boy wins a tour through the most magnificent ______ factory in the world, led by the world's most unusual candy maker.",
-            "actor1": "Jynine James",
-            "actor3": "John Warman",
-            "collection": "None",
-            "release_date": "2005-07-13",
-            "poster_path": "https://image.tmdb.org/t/p/w500/iKP6wg3c6COUe8gYutoGG7qcPnO.jpg",
-            "actor2": "Tracy Yarkoni",
-            "director": "Tim Burton"
+            "actor1": "Johnny Depp",
+            "actor3": "David Kelly",
+            "collection": "None"
         },
         {
+            "release_date": "2004-09-09",
+            "poster_path": "https://image.tmdb.org/t/p/w500/23hUJh7JdO23SpgUB5oiFDQk2wX.jpg",
+            "actor2": "Takuya Kimura",
+            "director": "Hayao Miyazaki",
             "original_title": "Howl's Moving Castle",
             "tmdbid": 4935,
             "media": "movie",
             "overview": "Sophie, a young milliner, is turned into an elderly woman by a witch who enters her shop and curses her. She encounters a wizard named ______ and gets caught up in his resistance to fighting for the king.",
-            "actor1": "Takuma Otoo",
-            "actor3": "Hiroyuki Morisaki",
-            "collection": "None",
-            "release_date": "2004-09-09",
-            "poster_path": "https://image.tmdb.org/t/p/w500/23hUJh7JdO23SpgUB5oiFDQk2wX.jpg",
-            "actor2": "Shigeyuki Totsugi",
-            "director": "Hayao Miyazaki"
+            "actor1": "Chieko Baisho",
+            "actor3": "Akihiro Miwa",
+            "collection": "None"
         },
         {
+            "release_date": "1967-10-18",
+            "poster_path": "https://image.tmdb.org/t/p/w500/9BgcTVV43dZ8A1TpuXWkuNTXtfI.jpg",
+            "actor2": "Phil Harris",
+            "director": "Tom Codrick",
             "original_title": "The Jungle Book",
             "tmdbid": 9325,
             "media": "movie",
             "overview": "The boy Mowgli makes his way to the man-village with Bagheera, the wise panther. Along the way he meets jazzy King Louie, the hypnotic snake Kaa and the lovable, happy-go-lucky bear Baloo, who teaches Mowgli \"The Bare Necessities\" of life and the true meaning of friendship.",
-            "actor1": "James MacDonald",
-            "actor3": "Leo De Lyon",
-            "collection": "The Jungle Book Collection",
-            "release_date": "1967-10-18",
-            "poster_path": "https://image.tmdb.org/t/p/w500/9BgcTVV43dZ8A1TpuXWkuNTXtfI.jpg",
-            "actor2": "Ralph Wright",
-            "director": "Tom Codrick"
+            "actor1": "Bruce Reitherman",
+            "actor3": "Sebastian Cabot",
+            "collection": "The Jungle Book Collection"
         },
         {
+            "release_date": "1977-05-25",
+            "poster_path": "https://image.tmdb.org/t/p/w500/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
+            "actor2": "Harrison Ford",
+            "director": "George Lucas",
             "original_title": "Star Wars",
             "tmdbid": 11,
             "media": "movie",
             "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
-            "actor1": "Larry Ward",
-            "actor3": "Frances Alfred Basil Tomlin",
-            "collection": "Star Wars Collection",
-            "release_date": "1977-05-25",
-            "poster_path": "https://image.tmdb.org/t/p/w500/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
-            "actor2": "John Cannon",
-            "director": "George Lucas"
+            "actor1": "Mark Hamill",
+            "actor3": "Carrie Fisher",
+            "collection": "Star Wars Collection"
         },
         {
+            "release_date": "1978-10-24",
+            "poster_path": "https://image.tmdb.org/t/p/w500/wijlZ3HaYMvlDTPqJoTCWKFkCPU.jpg",
+            "actor2": "Jamie Lee Curtis",
+            "director": "John Carpenter",
             "original_title": "Halloween",
             "tmdbid": 948,
             "media": "movie",
             "overview": "Fifteen years after murdering his sister on Halloween Night 1963, Michael Myers escapes from a mental hospital and returns to the small town of Haddonfield, Illinois to kill again.",
-            "actor1": "Tommy Lee Wallace",
-            "actor3": "Darla Rae",
-            "collection": "Halloween Collection",
-            "release_date": "1978-10-24",
-            "poster_path": "https://image.tmdb.org/t/p/w500/wijlZ3HaYMvlDTPqJoTCWKFkCPU.jpg",
-            "actor2": "John Carpenter",
-            "director": "John Carpenter"
+            "actor1": "Donald Pleasence",
+            "actor3": "Nancy Kyes",
+            "collection": "Halloween Collection"
         },
         {
+            "release_date": "1989-11-22",
+            "poster_path": "https://image.tmdb.org/t/p/w500/YBawEsTkUZBDajKbd5LiHkmMGf.jpg",
+            "actor2": "Christopher Lloyd",
+            "director": "Steven Spielberg",
             "original_title": "Back to the Future Part II",
             "tmdbid": 165,
             "media": "movie",
             "overview": "Marty and Doc are at it again in this wacky sequel to the 1985 blockbuster as the time-traveling duo head to 2015 to nip some McFly family woes in the bud. But things go awry thanks to bully Biff Tannen and a pesky sports almanac. In a last-ditch attempt to set things straight, Marty finds himself bound for 1955 and face to face with his teenage parents -- again.",
-            "actor1": "Crispin Glover",
-            "actor3": "Marc McClure",
-            "collection": "Back to the Future Collection",
-            "release_date": "1989-11-22",
-            "poster_path": "https://image.tmdb.org/t/p/w500/YBawEsTkUZBDajKbd5LiHkmMGf.jpg",
-            "actor2": "Mary Ellen Trainor",
-            "director": "Steven Spielberg"
+            "actor1": "Michael J. Fox",
+            "actor3": "Lea Thompson",
+            "collection": "Back to the Future Collection"
         },
         {
+            "release_date": "1986-07-18",
+            "poster_path": "https://image.tmdb.org/t/p/w500/r1x5JGpyqZU8PYhbs4UcrO1Xb6x.jpg",
+            "actor2": "Carrie Henn",
+            "director": "James Cameron",
             "original_title": "Aliens",
             "tmdbid": 679,
             "media": "movie",
             "overview": "Ripley, the sole survivor of the Nostromo's deadly encounter with the monstrous Alien, returns to Earth after drifting through space in hypersleep for 57 years. Although her story is initially met with skepticism, she agrees to accompany a team of Colonial Marines back to LV-426.",
-            "actor1": "Alec Gillis",
-            "actor3": "Chris Webb",
-            "collection": "Alien Collection",
-            "release_date": "1986-07-18",
-            "poster_path": "https://image.tmdb.org/t/p/w500/r1x5JGpyqZU8PYhbs4UcrO1Xb6x.jpg",
-            "actor2": "Tom Woodruff Jr.",
-            "director": "James Cameron"
+            "actor1": "Sigourney Weaver",
+            "actor3": "Michael Biehn",
+            "collection": "Alien Collection"
         },
         {
+            "release_date": "1984-06-08",
+            "poster_path": "https://image.tmdb.org/t/p/w500/7E8nLijS9AwwUEPu2oFYOVKhdFA.jpg",
+            "actor2": "Dan Aykroyd",
+            "director": "Harold Ramis",
             "original_title": "Ghostbusters",
             "tmdbid": 620,
             "media": "movie",
             "overview": "After losing their academic posts at a prestigious university, a team of parapsychologists goes into business as proton-pack-toting \"ghostbusters\" who exterminate ghouls, hobgoblins and supernatural pests of all stripes. An ad campaign pays off when a knockout cellist hires the squad to purge her swanky digs of demons that appear to be living in her refrigerator.",
-            "actor1": "Mark Bryan Wilson",
-            "actor3": "Mario Todisco",
-            "collection": "Ghostbusters Collection",
-            "release_date": "1984-06-08",
-            "poster_path": "https://image.tmdb.org/t/p/w500/7E8nLijS9AwwUEPu2oFYOVKhdFA.jpg",
-            "actor2": "Bill Walton",
-            "director": "Harold Ramis"
+            "actor1": "Bill Murray",
+            "actor3": "Sigourney Weaver",
+            "collection": "Ghostbusters Collection"
         },
         {
+            "release_date": "1983-05-25",
+            "poster_path": "https://image.tmdb.org/t/p/w500/jQYlydvHm3kUix1f8prMucrplhm.jpg",
+            "actor2": "Harrison Ford",
+            "director": "George Lucas",
             "original_title": "Return of the Jedi",
             "tmdbid": 1892,
             "media": "movie",
             "overview": "Luke Skywalker leads a mission to rescue his friend Han Solo from the clutches of Jabba the Hutt, while the Emperor seeks to destroy the Rebellion once and for all with a second dreaded Death Star.",
-            "actor1": "Jason Wingreen",
-            "actor3": "Barrie Holland",
-            "collection": "Star Wars Collection",
-            "release_date": "1983-05-25",
-            "poster_path": "https://image.tmdb.org/t/p/w500/jQYlydvHm3kUix1f8prMucrplhm.jpg",
-            "actor2": "Larry Ward",
-            "director": "George Lucas"
+            "actor1": "Mark Hamill",
+            "actor3": "Carrie Fisher",
+            "collection": "Star Wars Collection"
         }
     ]
 }

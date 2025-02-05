@@ -70,7 +70,7 @@ def read_root():
 def get_days(db: Session = Depends(get_db)):
     try:
         today = datetime.today().date()
-        days = db.query(models.Days).filter(models.Days.available_date <= today).all()
+        days = db.query(models.Days).filter(models.Days.available_date <= today ).all()
         # return only the days' ids
         daysIDS = [day.id for day in days]
         return JSONResponse(daysIDS)
@@ -136,11 +136,29 @@ def check_answer(day_id: int, db: Session = Depends(get_db), media:str =None, co
                 "hint":hint
                 }
         day = db.query(models.Days).filter(models.Days.id == day_id and models.Days.available_date <= today).first()
-        paramResponse = gameUtils.check_param(day,param)
+        paramResponse = gameUtils.check_param(day,param,"day")
         if paramResponse["isValid"] is False:
             raise HTTPException(status_code=404, detail=paramResponse["detail"])
         else:
             message = gameUtils.message_to_send(day.movie,day_id,param)
+        return JSONResponse(content=message)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
+    
+@router.get("/checkRoom/{room_id}/")
+def check_room(room_id: str, db: Session = Depends(get_db), media:str =None, collection:str=None,tmdbid:int=None,hint:int=None):
+    try:
+        room = db.query(models.Rooms).filter(models.Rooms.id == room_id).first()
+        param = {"media": media,
+                "collection": collection,
+                "tmdbid":tmdbid,
+                "hint":hint
+                }
+        paramResponse = gameUtils.check_param(room,param,"room")
+        if paramResponse["isValid"] is False:
+            raise HTTPException(status_code=404, detail=paramResponse["detail"])
+        else:
+            message = gameUtils.message_to_send(room,NoneZ,param)
         return JSONResponse(content=message)
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")

@@ -27,3 +27,4 @@ def init_db():
         db.rollback()  # En cas de duplication, annule les changements
     finally:
         db.close()
+    
