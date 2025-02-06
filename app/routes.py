@@ -158,7 +158,7 @@ def check_room(room_id: str, db: Session = Depends(get_db), media:str =None, col
         if paramResponse["isValid"] is False:
             raise HTTPException(status_code=404, detail=paramResponse["detail"])
         else:
-            message = gameUtils.message_to_send(room,NoneZ,param)
+            message = gameUtils.message_to_send(room,None,param)
         return JSONResponse(content=message)
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")

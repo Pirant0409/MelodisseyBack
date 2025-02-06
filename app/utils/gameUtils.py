@@ -52,13 +52,14 @@ def message_to_send(movie,day_id,param):
     else:
         match param["hint"]:
             case 0:
-                message["hint"]= movie.hint1 if movie.get("hint1") else movie.media
+                
+                message["hint"]= movie.hint1 if hasattr(movie,"hint1") else movie.media
             case 1:
-                message["hint"]= movie.hint2 if movie.get("hint2") else [movie.actor1,movie.actor2,movie.actor3]
+                message["hint"]= movie.hint2 if hasattr(movie,"hint2") else [movie.actor1,movie.actor2,movie.actor3]
             case 2:
-                message["hint"]= movie.hint3 if movie.get("hint3") else movie.director
+                message["hint"]= movie.hint3 if hasattr(movie,"hint3") else movie.director
             case 3:
-                message["hint"] = movie.hint4 if movie.get("hint4") else movie.overview
+                message["hint"] = movie.hint4 if hasattr(movie,"hint4") else movie.overview
             case _:
                 message["original_title"]= movie.original_title
                 message["release_date"]= movie.release_date

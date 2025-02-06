@@ -50,10 +50,13 @@ def get_cast_crew_collection(id,media):
     sortedCast = sorted(response["credits"]["cast"], key=lambda x:x["order"], reverse=False)
     directors = [member for member in response["credits"]["crew"] if member["known_for_department"] == "Directing"]
     sortedDirectors = sorted(directors,key=lambda x:x["popularity"], reverse=True)
-    director = sortedDirectors[0] if len(sortedDirectors)>0 else {"name":"Unknown"}
+    if media == "tv":
+        director = [creator["name"] for creator in response["created_by"]] if len(response["created_by"])>0 else {"name":"Unknown"}
+    elif media == "movie":
+        director = sortedDirectors[0] if len(sortedDirectors)>0 else {"name":"Unknown"}
+        director = director["name"]
     mainCast = sortedCast[:3]
     collection = response["belongs_to_collection"]["name"] if response.get("belongs_to_collection") else "None"
-    director = director["name"]
     return {"director":director,
             "mainCast":[member["name"] for member in mainCast],
             "collection":collection}
