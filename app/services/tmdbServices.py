@@ -36,7 +36,7 @@ def format_movies(results):
 
     for i in range(max_results):
         movie=only_movies[i]
-        if(movie and movie.get("media_type") in ["movie","tv"]):
+        if(movie and movie.get("media_type") in ["movie","tv"] and movie.get("popularity")>=5):
             details = get_cast_crew_collection(movie["id"],movie["media_type"])
             formattedMovie = setup_data(movie, details)
             formatted_results.append(formattedMovie)
