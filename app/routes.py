@@ -173,18 +173,6 @@ def search_movie(movie:str):
         return response
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
-    
-@router.get("/routes/")
-def get_routes(db: Session = Depends(get_db)):
-    try:
-        #get ids from all days in the database
-        days = db.query(models.Days).all()
-        #create a list of the ids
-        idsList =[day.id for day in days]
-            
-        return idsList
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
 
 @router.get("/stats/{day_id}")
 def get_stats(day_id):
@@ -287,7 +275,6 @@ def get_rooms(db: Session = Depends(get_db)):
     try:
         rooms = db.query(models.Rooms).all()
         rooms = [room.id for room in rooms]
-        print(rooms)
         return JSONResponse(rooms)
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
@@ -301,17 +288,7 @@ def get_room(room_id: str, db: Session = Depends(get_db)):
         else:
             message = {
                 "roomID": room.id,
-                "tmdbID": room.tmdbid,
-                "media": room.media,
                 "ytbID": room.ytbid,
-                "poster_path": room.poster_path,
-                "original_title": room.original_title,
-                "release_date": room.release_date,
-                "collection": room.collection,
-                "hint1": room.hint1,
-                "hint2": room.hint2,
-                "hint3": room.hint3,
-                "hint4": room.hint4
             }
         return JSONResponse(content=message)
     except Exception as e:
