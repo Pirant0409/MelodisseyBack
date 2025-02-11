@@ -6,10 +6,12 @@ It allows players to guess the movie or series from a piece of music each day, w
 
 ## 🚀Features
 
-- **Movie Guessing Game**: Players are presented with a movie/series soundtrack every day and must guess the movie.
-- **Admin Panel**: Admin users can add, edit, or delete (comming soon) movies and view game statistics.
-- **Leaderboard**: Track the performance of all players (comming soon).
-- **Statistics**: Track guesses, total guesses, and success/failure for each day.
+- 🎶 **Daily blind test Game**: Players are presented with a movie/series soundtrack every day and must guess the movie.
+- 🧩 **Progressive Hints** – The more attempts, the more clues
+- 👥 **Private Rooms** – Play with friends in custom rooms
+- 🔧 **Admin Panel**: Admin users can add, edit, or delete (comming soon) movies and view game statistics.
+- 🏆 **Leaderboard**: Track the performance of all players (comming soon).
+- 📊 **Statistics**: Track guesses, total guesses, and success/failure for each day.
 
 ## 🛠Technologies Used
 
