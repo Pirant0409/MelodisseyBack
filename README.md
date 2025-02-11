@@ -68,7 +68,7 @@ uvicorn main:app --reload
   {"hint": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American ______ crime family."}
   ```
 ### 2. Private room
-- **GET** `/checkRoom/{room_id}?media={media}&tmdbid={tmdbID}&collection=${collection}&hint=${hint}/` : Similar to [`third route of this section`](1.-days-data)
+- **GET** `/checkRoom/{room_id}?media={media}&tmdbid={tmdbID}&collection=${collection}&hint=${hint}/` : Similar to [third route of this section](1.-days-data)
 - 
 
   
