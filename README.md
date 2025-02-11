@@ -129,8 +129,8 @@ uvicorn main:app --reload
 - **GET** `/rooms/{room_id}/` : From a room's ID, returns the associated ytbid.<br>
   Example response:
   ```json
-  {"roomID":P7ed3,
-   "ytbID":"P7ed3"}
+  {"roomID":"P7ed3",
+   "ytbID":"Flb01Ni3p3M"}
   ```
 - **GET** `/checkRoom/{room_id}?media={media}&tmdbid={tmdbID}&collection=${collection}&hint=${hint}/` : Similar to third route of [this section](#2-days-data)
 
