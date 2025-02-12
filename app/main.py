@@ -2,6 +2,8 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app import models, database, routes
 import diskcache
+from dotenv import load_dotenv
+import os
 
 app = FastAPI()
 

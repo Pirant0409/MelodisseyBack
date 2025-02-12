@@ -1,7 +1,3 @@
-import os
-
-from dotenv import load_dotenv
-import requests
 from app import database, models
 from datetime import datetime, timedelta
 import json, random

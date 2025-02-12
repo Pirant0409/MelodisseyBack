@@ -1,17 +1,8 @@
 import requests, random
 import os
 import socket
-from dotenv import load_dotenv
 from app import models
-
-load_dotenv("./app/var.env")
-
-MULTI_URL = os.getenv("MULTIURL")
-DISCOVER_MOVIES_URL = os.getenv("DISCOVERMOVIESURL")
-DISCOVER_TV_URL = os.getenv("DISCOVERTVURL")
-FIND_MOVIE_URL = os.getenv("FINDMOVIEURL")
-FIND_TV_URL = os.getenv("FINDTVURL")
-API_KEY = os.getenv("TMDB_API_KEY")
+from app.config import MULTI_URL, DISCOVER_MOVIES_URL, DISCOVER_TV_URL, FIND_MOVIE_URL, FIND_TV_URL, API_KEY
 
 
 headers = {

@@ -1,12 +1,7 @@
 from fastapi import Depends, HTTPException
 from fastapi.security import OAuth2PasswordBearer
-from dotenv import load_dotenv
-import os
+from app.config import SECRET_KEY, ALGORITHM
 import jwt
-
-load_dotenv("./app/var.env")
-SECRET_KEY = os.getenv("SECRET_KEY")
-ALGORITHM = os.getenv("ALGORITHM")
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="admin/protected")
 

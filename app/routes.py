@@ -1,59 +1,18 @@
 from datetime import datetime, timedelta
 from fastapi import APIRouter, Depends, HTTPException
 from fastapi.responses import JSONResponse
-from pydantic import BaseModel
-from sqlalchemy import Enum
 from sqlalchemy.orm import Session
 from . import models, database
 from .services import tmdbServices as tmdb
 from .utils import cacheUtils, gameUtils
 from passlib.context import CryptContext
-from dotenv import load_dotenv
 from app.auth import verify_admin_token
-import os
+from app.config import SECRET_KEY, ALGORITHM, HASHED_PWD, PasswordRequest, Day, Movie, RoomData
 import jwt
 
-load_dotenv("var.env")
 
 router= APIRouter()
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
-
-class PasswordRequest(BaseModel):
-    password: str
-
-class Day(BaseModel):
-    ytbid: str
-    media: str
-    available_date: datetime
-    tmdbid: int
-    id:int
-
-class Movie(BaseModel):
-    tmdbid: int
-    original_title: str
-    media: str
-    overview: str
-    actor1: str
-    actor2: str
-    actor3: str
-    collection: str
-    release_date: str
-    poster_path: str
-    director: str
-
-class RoomData(BaseModel):
-    tmdbid:int
-    media: str
-    ytbid: str
-    poster_path: str
-    original_title: str
-    release_date: str
-    collection: str
-    hint1: str
-    hint2: str
-    hint3: str
-    hint4: str
-
 
 def get_db():
     db = database.SessionLocal()
@@ -222,7 +181,6 @@ def get_random(include_adults:bool=False,include_videos:bool=False,language:str=
 @router.post("/admin/login")
 def admin(request:PasswordRequest):
     try:
-        HASHED_PWD = os.getenv("ADMIN_PASSWORD")
         if not pwd_context.verify(request.password,HASHED_PWD):
             raise HTTPException(status_code=401, detail="Password incorrect")
         
@@ -231,7 +189,7 @@ def admin(request:PasswordRequest):
             "exp": datetime.now() + timedelta(minutes=30)
         }
 
-        token = jwt.encode(token_data, os.getenv("SECRET_KEY"), os.getenv("ALGORITHM"))
+        token = jwt.encode(token_data, SECRET_KEY, ALGORITHM)
         return {"detail":"Access granted", "token": token}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")

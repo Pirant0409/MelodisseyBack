@@ -1,6 +1,5 @@
 from sqlalchemy import Column, ForeignKey, ForeignKeyConstraint, Integer,String, Enum, UniqueConstraint, Date
 from sqlalchemy.orm import relationship
-from datetime import datetime 
 from app.enums import MediaType
 from app.database import Base
 
