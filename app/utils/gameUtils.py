@@ -12,8 +12,8 @@ def is_it_guess(media,tmdbid):
     else:
         return False
 
-def is_guess_right(movie,id,media):
-    if movie.tmdbid == id and movie.media == media:
+def is_guess_right(movie,id,media,collection):
+    if movie.tmdbid == id and movie.media == media or movie.collection == collection and collection is not None and movie.media == media:
         return True
 
 def check_param(game, param, room_type):
@@ -37,10 +37,7 @@ def check_param(game, param, room_type):
 
 def message_to_send(movie,day_id,param):
     message={}
-    if param["collection"] is not None:
-        if movie.collection == param["collection"]:
-            message["collection"] = movie.collection
-    isRight = is_guess_right(movie,param["tmdbid"],param["media"])
+    isRight = is_guess_right(movie,param["tmdbid"],param["media"],param["collection"])
     if isRight:
         message["original_title"]= movie.original_title
         message["release_date" ]= movie.release_date

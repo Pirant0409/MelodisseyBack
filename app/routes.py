@@ -339,5 +339,28 @@ def update_movie(movie: Movie, db: Session = Depends(get_db), token:str=Depends(
         return {"detail": "Movie updated"}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
+    
+@router.get("/timer/")
+def get_timer():
+    try:
+        now = datetime.now()
+        next_day = (now + timedelta(days=1)).replace(hour=0, minute=0, second=0, microsecond=0)
+        time_remaining = next_day - now
+        if(time_remaining.seconds //3600 <10):
+            hours= "0"+str(time_remaining.seconds // 3600)
+        else:
+            hours= str(time_remaining.seconds // 3600)
+        if((time_remaining.seconds // 60) % 60 <10):
+            minutes= "0"+str((time_remaining.seconds // 60) % 60)
+        else:
+            minutes= str((time_remaining.seconds // 60) % 60)
+        if(time_remaining.seconds % 60 <10):
+            seconds= "0"+str(time_remaining.seconds % 60)
+        else:
+            seconds= str(time_remaining.seconds % 60)
+        
+        return {"detail":"sucess","hours": hours, "minutes":minutes, "seconds": seconds}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
 
 
