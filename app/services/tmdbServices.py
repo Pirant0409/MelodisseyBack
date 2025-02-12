@@ -1,5 +1,6 @@
 import requests, random
 import os
+import socket
 from dotenv import load_dotenv
 from app import models
 
@@ -15,12 +16,13 @@ API_KEY = os.getenv("TMDB_API_KEY")
 
 headers = {
     "accept": "application/json",
-    "Authorization": API_KEY
+    "authorization": API_KEY,
 }
 
 
 def search_movies(query):
     querriedURL = MULTI_URL+"?query="+query
+    requests.packages.urllib3.util.connection.HAS_IPV6 = False #TODO : A dégager quand pblm ipv6 réglé
     response = requests.get(querriedURL, headers=headers)
     return format_movies(response.json())
 
