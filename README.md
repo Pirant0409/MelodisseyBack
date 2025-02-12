@@ -122,12 +122,6 @@ uvicorn main:app --reload
   {"detail": "Room created",
    "roomID": "P7ed3"}
   ```
-- **GET** `/rooms/` : Returns a list of every rooms' id.<br>
-  **⚠️Will be changed in a near future. Client will provide the roomID he is trying to join in parameters. Instead of receiving every roomIDs, he will just receive true or false response weither the roomID exists or not.⚠️**
-  Example response:
-  ```json
-  ["P7ed3","D1eaf","mced4"]
-  ```
 - **GET** `/rooms/{room_id}/` : From a room's ID, returns the associated ytbid.<br>
   Example response:
   ```json
@@ -157,6 +151,11 @@ uvicorn main:app --reload
       "ytbid": "Flb01Ni3p3M",
       "available_date": "2025-01-15",
       "media": "movie"}]
+  ```
+- **GET** `/rooms/` : Returns a list of every rooms' id.<br>
+  Example response:
+  ```json
+  ["P7ed3","D1eaf","mced4"]
   ```
 - **GET** `/allMovies/` : Returns a list of every shows object.<br>
   Example response:

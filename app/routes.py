@@ -166,7 +166,7 @@ def get_stats(day_id):
 
 
 @router.get("/random")
-def get_random(include_adults:bool=False,include_videos:bool=False,language:str="en-US",page:int=5,primary_release_date_gte:str="1970-01-01",primary_release_date_lte:str="1990-01-01",sort_by:str="popularity.desc",vote_count_gte:int=5000):
+def get_random(token:str=Depends(verify_admin_token), include_adults:bool=False,include_videos:bool=False,language:str="en-US",page:int=5,primary_release_date_gte:str="1970-01-01",primary_release_date_lte:str="1990-01-01",sort_by:str="popularity.desc",vote_count_gte:int=5000):
     try:
         #get all tmdbIds from the database
         db = database.SessionLocal()
@@ -229,7 +229,7 @@ def createRoom(roomData: RoomData, db: Session = Depends(get_db)):
         raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
     
 @router.get("/rooms/")
-def get_rooms(db: Session = Depends(get_db)):
+def get_rooms(token:str=Depends(verify_admin_token), db: Session = Depends(get_db)):
     try:
         rooms = db.query(models.Rooms).all()
         rooms = [room.id for room in rooms]
