@@ -154,10 +154,12 @@ def save_db():
     days = db.query(models.Days).all()
     stats = db.query(models.Stats).all()
     movies = db.query(models.Movies).all()
+    rooms = db.query(models.Rooms).all()
     db.close()
     days_dict = [day.__dict__ for day in days]
     stats_dict = [stat.__dict__ for stat in stats]
     movies_dict = [movie.__dict__ for movie in movies]
+    rooms_dict = [room.__dict__ for room in rooms]
     
     # Remove the '_sa_instance_state' key from the dictionaries
     for day in days_dict:
@@ -167,9 +169,12 @@ def save_db():
         stat.pop('_sa_instance_state', None)
     for movie in movies_dict:
         movie.pop('_sa_instance_state', None)
+    for room in rooms_dict:
+        room["creation_date"] = room["creation_date"].strftime("%Y-%m-%d")
+        room.pop('_sa_instance_state', None)
     
     with open("db.json","w") as f:
-        json.dump({"days":days_dict,"stats":stats_dict,"movies":movies_dict},f,indent=4)
+        json.dump({"days":days_dict,"stats":stats_dict,"movies":movies_dict,"rooms":rooms_dict},f,indent=4)
         print("Database saved in db.json")
 
 #load db from json file
@@ -177,16 +182,41 @@ def load_db():
     db = database.SessionLocal()
     with open("db.json","r", encoding='utf8') as f:
         data = json.load(f)
-        for day in data["days"]:
-            day["available_date"] = datetime.strptime(day["available_date"],"%Y-%m-%d").date()
-            new_day = models.Days(**day)
-            db.add(new_day)
-        for stat in data["stats"]:
-            new_stat = models.Stats(**stat)
-            db.add(new_stat)
-        for movie in data["movies"]:
-            new_movie = models.Movies(**movie)
-            db.add(new_movie)
+        if data.get("days") is not None:
+            for day in data["days"]:
+                day["available_date"] = datetime.strptime(day["available_date"],"%Y-%m-%d").date()
+                new_day = models.Days(**day)
+                db.add(new_day)
+        if data.get("stats") is not None:
+            for stat in data["stats"]:
+                new_stat = models.Stats(**stat)
+                db.add(new_stat)
+        if data.get("movies") is not None:
+            for movie in data["movies"]:
+                new_movie = models.Movies(**movie)
+                db.add(new_movie)
+        if data.get("rooms") is not None:
+            for room in data["rooms"]:
+                room["creation_date"] = datetime.strptime(room["creation_date"],"%Y-%m-%d").date()
+                new_room = models.Rooms(**room)
+                db.add(new_room)
         db.commit()
     print("Database loaded from db.json")
+    db.close()
+
+def delete_old_rooms():
+    db = database.SessionLocal()
+    changes_made = False
+    rooms = db.query(models.Rooms).all()
+    for room in rooms:
+        print(room.creation_date)
+        print(datetime.today().date() - timedelta(days=7))
+        if room.creation_date <= (datetime.today().date() - timedelta(days=7)):
+            print("Old room deleted")
+            changes_made = True
+            db.delete(room)
+            db.commit()
+    if changes_made:
+        print("Old rooms deleted")
+        save_db()
     db.close()

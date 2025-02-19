@@ -1,4 +1,4 @@
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 from fastapi import APIRouter, Depends, HTTPException
 from fastapi.responses import JSONResponse
 from sqlalchemy.orm import Session
@@ -8,6 +8,7 @@ from .utils import cacheUtils, gameUtils
 from passlib.context import CryptContext
 from app.auth import verify_admin_token
 from app.config import SECRET_KEY, ALGORITHM, HASHED_PWD, PasswordRequest, Day, Movie, RoomData
+from app.config import TODAY
 import jwt
 
 
@@ -28,6 +29,10 @@ def read_root():
 @router.get("/days/")
 def get_days(db: Session = Depends(get_db)):
     try:
+        today = date.today()
+        if today != TODAY.get_today():
+            gameUtils.delete_old_rooms()
+            TODAY.set_today()
         today = datetime.today().date()
         days = db.query(models.Days).filter(models.Days.available_date <= today ).all()
         # return only the days' ids
@@ -204,28 +209,31 @@ def createRoom(roomData: RoomData, db: Session = Depends(get_db)):
         db = database.SessionLocal()
         #Get a list of all ids of private table
         ids = db.query(models.Rooms).all()
-        ids = [id.id for id in ids]
+        if (len(ids) != 0):
+            ids = [room.id for room in ids]
         #Create a new id
-        new_id = gameUtils.create_id(ids)
+        new_id = gameUtils.create_id([])
+        print(roomData)
         newRoom = models.Rooms(id=new_id,
-                            creation_date=datetime.now(),
-                            tmdbid=roomData.tmdbid,
-                            media=roomData.media,
-                            ytbid=roomData.ytbid,
-                            poster_path=roomData.poster_path,
-                            original_title=roomData.original_title,
-                            release_date=roomData.release_date,
-                            collection=roomData.collection,
-                            hint1=roomData.hint1,
-                            hint2=roomData.hint2,
-                            hint3=roomData.hint3,
-                            hint4=roomData.hint4)
+                                creation_date=datetime.today().date(),
+                                tmdbid=roomData.tmdbid,
+                                media=roomData.media,
+                                ytbid=roomData.ytbid,
+                                poster_path=roomData.poster_path,
+                                original_title=roomData.original_title,
+                                release_date=roomData.release_date,
+                                collection=roomData.collection,
+                                hint1=roomData.hint1,
+                                hint2=roomData.hint2,
+                                hint3=roomData.hint3,
+                                hint4=roomData.hint4)
         db.add(newRoom)
         db.commit()
         db.close()
         gameUtils.save_db()
         return {"detail": "Room created", "roomID": new_id}
     except Exception as e:
+        print(e)
         raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
     
 @router.get("/rooms/")

@@ -9,7 +9,7 @@ It allows players to guess the movie or series from a piece of music each day, w
 - 🎶 **Daily blind test Game**: Players are presented with a movie/series soundtrack every day and must guess the movie.
 - 🧩 **Progressive Hints** – The more attempts, the more clues
 - 👥 **Private Rooms** – Play with friends in custom rooms
-- 🔧 **Admin Panel**: Admin users can add, edit, or delete (comming soon) movies and view game statistics.
+- 🔧 **Admin Panel**: Admin users can add (comming soon), edit, or delete (comming soon) movies and view game statistics.
 - 🏆 **Leaderboard**: Track the performance of all players (comming soon).
 - 📊 **Statistics**: Track guesses, total guesses, and success/failure for each day.
 
@@ -85,10 +85,11 @@ uvicorn main:app --reload
 - **GET** `/days/{day_id}/` : From a day's ID, returns the associated ytbid.<br>
   Example response:
   ```json
-  {"dayID":238,
+  {"dayID":23,
    "ytbID":"Flb01Ni3p3M"}
   ```
 - **GET** `/check/{day_id}?media={media}&tmdbid={tmdbID}&collection=${collection}&hint=${hint}/` : Checks if a guess is right. If it is, returns an object with some answers' data. If not, returns a hint.<br>
+  Example responses:<br>
   If guess is right:
   ```json
   {"isRight": true,
@@ -102,7 +103,8 @@ uvicorn main:app --reload
   {"hint": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American ______ crime family."}
   ```
 ### 3. Stats
-- **GET** `/stats/{day_id}` : Returns stats for the provided day id. (guess stats are expressed in %)
+- **GET** `/stats/{day_id}` : Returns stats for the provided day id. (guess stats are expressed in %).<br>
+  Example response:
   ```json
   {"first_guess": 25,
    "second_guess": 0,
@@ -136,12 +138,11 @@ uvicorn main:app --reload
 - **POST** `/admin/login/` : Check if the admin password is correct and returns the JWT token if it is.<br>
   Example response:
   ```json
-  {"detauk":"Acces granted",
+  {"detail":"Acces granted",
    "token":"BQDoolbkB18rSSdjZnbcd6ew0yIM8YBRyS-xUB_T7LGtZIBQeHsxbzU6-ugCyOlZFbr1zu_x-fQoqZAL0ab_M6oQ88jQKOSqtny_WuC4pKk6DUOCQ7gQUWxPCtjW-1F2sINlzwuLgODg0vAuer0eSU_cwWM6Tl8bSwvM1TyJmYhosFv0h3-8svcX2SzkZ8OJA7XMbnR2"}
   ```
 - **PUT** `/days/` : Updates the day according to the data sent in the headers.
 - **PUT** `/movies/` : Updates the movie/tv show according to the data sent in the headers.
-- **GET** `/admin/protected/` : Checks if the JWT token provided in the headers
 - **GET** `/admin/protected/` : Checks if the JWT token provided in the headers is valid.
 - **GET** `/allDays/` : Returns a list of every days object.<br>
   Example response:

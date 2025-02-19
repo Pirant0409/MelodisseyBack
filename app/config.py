@@ -1,8 +1,8 @@
 from dotenv import load_dotenv
 from pydantic import BaseModel
-from sqlalchemy import Enum
 from datetime import datetime
 import os
+from app.today_singleton import TodaySingleton
 
 load_dotenv("./app/var.env")  # Load environment variables from a .env file
 
@@ -16,6 +16,7 @@ DISCOVER_MOVIES_URL = os.getenv("DISCOVERMOVIESURL")
 DISCOVER_TV_URL = os.getenv("DISCOVERTVURL")
 FIND_MOVIE_URL = os.getenv("FINDMOVIEURL")
 FIND_TV_URL = os.getenv("FINDTVURL")
+TODAY = TodaySingleton()
 
 class PasswordRequest(BaseModel):
     password: str
