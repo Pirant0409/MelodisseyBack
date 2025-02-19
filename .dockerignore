@@ -1,0 +1,4 @@
+.git
+.editorconfig
+app/node_modules
+.gitignore
