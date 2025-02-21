@@ -4,15 +4,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from app import models, database, routes
 import diskcache
 
-class HTTPSRedirectMiddleware:
-    def __init__(self, app: FastAPI):
-        self.app = app
-
-    async def __call__(self, request: Request):
-        if request.url.scheme == "http":
-            https_url = request.url.replace(scheme="https")
-            return RedirectResponse(url=str(https_url))
-        return await self.app.__call__(request)
     
 app = FastAPI()
 
@@ -25,7 +16,6 @@ app.add_middleware(
     allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allow_headers=["Content-Type", "Authorization","Accept"]
 )
-app.add_middleware(HTTPSRedirectMiddleware)
 
 models.Base.metadata.create_all(bind=database.engine)
 
