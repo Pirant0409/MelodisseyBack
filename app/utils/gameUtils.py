@@ -253,8 +253,19 @@ def restore_db(data):
     db.close()
 
 def clear_db(db):
-    db.query(models.Stats).delete()
-    db.query(models.Movies).delete()
-    db.query(models.Days).delete()
+    # Désactiver les contraintes de clé étrangère
+    db.execute("SET session_replication_role = 'replica';")
+    db.commit()
+
+    # Supprimer les données des tables (en commençant par les tables enfants)
     db.query(models.Rooms).delete()
+    db.query(models.Stats).delete()
+    db.query(models.Days).delete()
+    db.query(models.Movies).delete()
+
+    # Commit des suppressions
+    db.commit()
+
+    # Réactiver les contraintes de clé étrangère
+    db.execute("SET session_replication_role = 'origin';")
     db.commit()
