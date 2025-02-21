@@ -55,7 +55,7 @@ def get_all_days(db: Session = Depends(get_db), token:str=Depends(verify_admin_t
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
 
-@router.get("/days/{day_id}")
+@router.get("/days/{day_id}/")
 def get_day(day_id: int, db: Session = Depends(get_db)):
     try:
         today = datetime.today().date()
@@ -128,7 +128,7 @@ def check_room(room_id: str, db: Session = Depends(get_db), media:str =None, col
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
     
-@router.get("/search/{movie}")
+@router.get("/search/{movie}/")
 def search_movie(movie:str):
     try:
         response = cacheUtils.get_from_cache(movie)
@@ -139,7 +139,7 @@ def search_movie(movie:str):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
 
-@router.get("/stats/{day_id}")
+@router.get("/stats/{day_id}/")
 def get_stats(day_id):
     try:
         db = database.SessionLocal()
@@ -171,7 +171,7 @@ def get_stats(day_id):
 
 
 
-@router.get("/random")
+@router.get("/random/")
 def get_random(token:str=Depends(verify_admin_token), include_adults:bool=False,include_videos:bool=False,language:str="en-US",page:int=5,primary_release_date_gte:str="1970-01-01",primary_release_date_lte:str="1990-01-01",sort_by:str="popularity.desc",vote_count_gte:int=5000):
     try:
         #get all tmdbIds from the database
@@ -184,7 +184,7 @@ def get_random(token:str=Depends(verify_admin_token), include_adults:bool=False,
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
     
-@router.post("/admin/login")
+@router.post("/admin/login/")
 def admin(request:PasswordRequest):
     try:
         if not pwd_context.verify(request.password,HASHED_PWD):
@@ -200,7 +200,7 @@ def admin(request:PasswordRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
 
-@router.get("/admin/protected")
+@router.get("/admin/protected/")
 def protected_admin_route(token:str=Depends(verify_admin_token)):
     return {"detail":"Access granted"}
 
@@ -244,7 +244,7 @@ def get_rooms(token:str=Depends(verify_admin_token), db: Session = Depends(get_d
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
     
-@router.get("/rooms/{room_id}")
+@router.get("/rooms/{room_id}/")
 def get_room(room_id: str, db: Session = Depends(get_db)):
     try:
         room = db.query(models.Rooms).filter(models.Rooms.id == room_id).first()
