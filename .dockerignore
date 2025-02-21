@@ -2,3 +2,5 @@
 .editorconfig
 app/node_modules
 .gitignore
+db.json
+db_copy.json

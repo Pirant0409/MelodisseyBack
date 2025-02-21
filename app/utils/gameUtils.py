@@ -223,24 +223,33 @@ def delete_old_rooms():
 
 def restore_db(data):
     db = database.SessionLocal()
-    if data.get("days") is not None:
-        for day in data["days"]:
-            day["available_date"] = datetime.strptime(day["available_date"],"%Y-%m-%d").date()
+    clear_db(db)
+    # Add the data from the json file
+    if hasattr(data, "days") and len(data.days) > 0:
+        for day in data.days:
+            day["available_date"] = datetime.strptime(day["available_date"], "%Y-%m-%d").date()
             new_day = models.Days(**day)
             db.add(new_day)
-    if data.get("stats") is not None:
-        for stat in data["stats"]:
+    if hasattr(data, "stats") and len(data.stats) > 0:
+        for stat in data.stats:
             new_stat = models.Stats(**stat)
             db.add(new_stat)
-    if data.get("movies") is not None:
-        for movie in data["movies"]:
+    if hasattr(data, "movies") and len(data.movies) > 0:
+        for movie in data.movies:
             new_movie = models.Movies(**movie)
             db.add(new_movie)
-    if data.get("rooms") is not None:
-        for room in data["rooms"]:
-            room["creation_date"] = datetime.strptime(room["creation_date"],"%Y-%m-%d").date()
+    if hasattr(data, "rooms") and len(data.rooms) > 0:
+        for room in data.rooms:
+            room["creation_date"] = datetime.strptime(room["creation_date"], "%Y-%m-%d").date()
             new_room = models.Rooms(**room)
             db.add(new_room)
     db.commit()
     save_db()
     db.close()
+
+def clear_db(db):
+    db.query(models.Days).delete()
+    db.query(models.Stats).delete()
+    db.query(models.Movies).delete()
+    db.query(models.Rooms).delete()
+    db.commit()

@@ -7,9 +7,10 @@ from .services import tmdbServices as tmdb
 from .utils import cacheUtils, gameUtils
 from passlib.context import CryptContext
 from app.auth import verify_admin_token
-from app.config import SECRET_KEY, ALGORITHM, HASHED_PWD, PasswordRequest, Day, Movie, RoomData
+from app.config import SECRET_KEY, ALGORITHM, HASHED_PWD, DBData, PasswordRequest, Day, Movie, RoomData
 from app.config import TODAY
 import jwt
+import json
 
 
 router= APIRouter()
@@ -212,8 +213,7 @@ def createRoom(roomData: RoomData, db: Session = Depends(get_db)):
         if (len(ids) != 0):
             ids = [room.id for room in ids]
         #Create a new id
-        new_id = gameUtils.create_id([])
-        print(roomData)
+        new_id = gameUtils.create_id(ids)
         newRoom = models.Rooms(id=new_id,
                                 creation_date=datetime.today().date(),
                                 tmdbid=roomData.tmdbid,
@@ -233,7 +233,6 @@ def createRoom(roomData: RoomData, db: Session = Depends(get_db)):
         gameUtils.save_db()
         return {"detail": "Room created", "roomID": new_id}
     except Exception as e:
-        print(e)
         raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
     
 @router.get("/rooms/")
@@ -331,13 +330,13 @@ def get_timer():
     
 #Route to restore db from received json file
 @router.post("/restoreDB/")
-def restore_db(file: bytes, token: str = Depends(verify_admin_token)):
+def restore_db(file: DBData, token: str = Depends(verify_admin_token)):
     try:
         # Store received json file in a variable
-        json_data = file.decode("utf-8")
-        gameUtils.restore_db(json_data)
-        return {"detail": "Database restored"}
+        gameUtils.restore_db(file)
+        return {"detail": "DB Restored"}
     except Exception as e:
+        print(e)
         raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
 
 

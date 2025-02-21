@@ -7,3 +7,4 @@ access_counter/*
 !access_counter/.gitkeep
 test.db
 db.json
+db_copy.json
