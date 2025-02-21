@@ -2,6 +2,7 @@ from fastapi import FastAPI, Request
 from fastapi.responses import RedirectResponse
 from fastapi.middleware.cors import CORSMiddleware
 from app import models, database, routes
+from starlette.middleware.trustedhost import TrustedHostMiddleware
 import diskcache
 
     
@@ -11,10 +12,15 @@ database.init_db()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:4200","http://127.0.0.1:4200","https://melodissey.e-kot.be","https://melodissey.e-kot.be/"],
+    allow_origins=["http://localhost:4200","http://127.0.0.1:4200","https://melodissey.e-kot.be","https://melodissey.e-kot.be/","melodissey.e-kot.be","melodissey.e-kot.be/"],
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allow_headers=["Content-Type", "Authorization","Accept"]
+)
+
+app.add_middleware(
+    TrustedHostMiddleware,
+    allowed_hosts=["melodissey.e-kot.be", "melodissey-back.e-kot.be", "https://melodissey.e-kot.be", "https://melodissey-back.e-kot.be"],
 )
 
 models.Base.metadata.create_all(bind=database.engine)
