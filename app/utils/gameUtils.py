@@ -1,4 +1,6 @@
 import os
+
+from sqlalchemy import text
 from app import database, models
 from datetime import datetime, timedelta
 import json, random
@@ -254,7 +256,7 @@ def restore_db(data):
 
 def clear_db(db):
     # Désactiver les contraintes de clé étrangère
-    db.execute("SET session_replication_role = 'replica';")
+    db.execute(text("SET session_replication_role = 'replica';"))
     db.commit()
 
     # Supprimer les données des tables (en commençant par les tables enfants)
@@ -267,5 +269,5 @@ def clear_db(db):
     db.commit()
 
     # Réactiver les contraintes de clé étrangère
-    db.execute("SET session_replication_role = 'origin';")
+    db.execute(text("SET session_replication_role = 'origin';"))
     db.commit()
