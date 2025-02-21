@@ -1,5 +1,5 @@
 from datetime import date, datetime, timedelta
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Request, Response
 from fastapi.responses import JSONResponse
 from sqlalchemy.orm import Session
 from . import models, database
@@ -340,3 +340,10 @@ def restore_db(file: DBData, token: str = Depends(verify_admin_token)):
         raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
 
 
+@app.options("/{path:path}")
+async def options(request: Request, path: str):
+    response = Response(status_code=200)
+    response.headers["Access-Control-Allow-Origin"] = "https://melodissey.e-kot.be"
+    response.headers["Access-Control-Allow-Methods"] = "GET, POST, PUT, DELETE, OPTIONS"
+    response.headers["Access-Control-Allow-Headers"] = "Content-Type, Authorization, Accept"
+    return response
