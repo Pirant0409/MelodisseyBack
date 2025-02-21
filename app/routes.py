@@ -328,5 +328,16 @@ def get_timer():
         return {"detail":"sucess","hours": hours, "minutes":minutes, "seconds": seconds}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
+    
+#Route to restore db from received json file
+@router.post("/restoreDB/")
+def restore_db(file: bytes, token: str = Depends(verify_admin_token)):
+    try:
+        # Store received json file in a variable
+        json_data = file.decode("utf-8")
+        gameUtils.restore_db(json_data)
+        return {"detail": "Database restored"}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
 
 

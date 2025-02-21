@@ -201,7 +201,7 @@ def load_db():
                 new_room = models.Rooms(**room)
                 db.add(new_room)
         db.commit()
-    print("Database loaded from db.json")
+    print("Database loaded from json")
     db.close()
 
 def delete_old_rooms():
@@ -219,4 +219,28 @@ def delete_old_rooms():
     if changes_made:
         print("Old rooms deleted")
         save_db()
+    db.close()
+
+def restore_db(data):
+    db = database.SessionLocal()
+    if data.get("days") is not None:
+        for day in data["days"]:
+            day["available_date"] = datetime.strptime(day["available_date"],"%Y-%m-%d").date()
+            new_day = models.Days(**day)
+            db.add(new_day)
+    if data.get("stats") is not None:
+        for stat in data["stats"]:
+            new_stat = models.Stats(**stat)
+            db.add(new_stat)
+    if data.get("movies") is not None:
+        for movie in data["movies"]:
+            new_movie = models.Movies(**movie)
+            db.add(new_movie)
+    if data.get("rooms") is not None:
+        for room in data["rooms"]:
+            room["creation_date"] = datetime.strptime(room["creation_date"],"%Y-%m-%d").date()
+            new_room = models.Rooms(**room)
+            db.add(new_room)
+    db.commit()
+    save_db()
     db.close()
