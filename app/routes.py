@@ -90,7 +90,7 @@ def get_all_movies(db: Session = Depends(get_db), token:str=Depends(verify_admin
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
 
-@router.get("/check/{day_id}")
+@router.get("/check/{day_id}/")
 def check_answer(day_id: int, db: Session = Depends(get_db), media:str =None, collection:str=None,tmdbid:int=None,hint:int=None):
     try:
         today = datetime.today().date()
