@@ -228,7 +228,8 @@ def delete_old_rooms():
 
 def restore_db(data):
     db = database.SessionLocal()
-    clear_db(db)
+    if db.query(models.Days).count() > 0 or db.query(models.Stats).count() > 0 or db.query(models.Movies).count() > 0 or db.query(models.Rooms).count() > 0:
+        clear_db(db)
     # Add the data from the json file
     if hasattr(data, "days") and len(data.days) > 0:
         for day in data.days:
