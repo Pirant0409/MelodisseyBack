@@ -5,7 +5,7 @@ from sqlalchemy.exc import IntegrityError
 from app.utils import gameUtils
 from app.config import SQLALCHEMY_DATABASE_URL
 
-# SQLALCHEMY_DATABASE_URL = "postgresql://user:password@localhost/dbname"
+
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False,autoflush=False, bind=engine)
 

@@ -1,3 +1,4 @@
+import os
 from app import database, models
 from datetime import datetime, timedelta
 import json, random
@@ -179,30 +180,34 @@ def save_db():
 
 #load db from json file
 def load_db():
-    db = database.SessionLocal()
-    with open("db.json","r", encoding='utf8') as f:
-        data = json.load(f)
-        if data.get("days") is not None:
-            for day in data["days"]:
-                day["available_date"] = datetime.strptime(day["available_date"],"%Y-%m-%d").date()
-                new_day = models.Days(**day)
-                db.add(new_day)
-        if data.get("stats") is not None:
-            for stat in data["stats"]:
-                new_stat = models.Stats(**stat)
-                db.add(new_stat)
-        if data.get("movies") is not None:
-            for movie in data["movies"]:
-                new_movie = models.Movies(**movie)
-                db.add(new_movie)
-        if data.get("rooms") is not None:
-            for room in data["rooms"]:
-                room["creation_date"] = datetime.strptime(room["creation_date"],"%Y-%m-%d").date()
-                new_room = models.Rooms(**room)
-                db.add(new_room)
-        db.commit()
-    print("Database loaded from json")
-    db.close()
+    if "db.json" not in os.listdir():
+        print("No database to load")
+        return
+    else:
+        db = database.SessionLocal()
+        with open("db.json","r", encoding='utf8') as f:
+            data = json.load(f)
+            if data.get("days") is not None:
+                for day in data["days"]:
+                    day["available_date"] = datetime.strptime(day["available_date"],"%Y-%m-%d").date()
+                    new_day = models.Days(**day)
+                    db.add(new_day)
+            if data.get("stats") is not None:
+                for stat in data["stats"]:
+                    new_stat = models.Stats(**stat)
+                    db.add(new_stat)
+            if data.get("movies") is not None:
+                for movie in data["movies"]:
+                    new_movie = models.Movies(**movie)
+                    db.add(new_movie)
+            if data.get("rooms") is not None:
+                for room in data["rooms"]:
+                    room["creation_date"] = datetime.strptime(room["creation_date"],"%Y-%m-%d").date()
+                    new_room = models.Rooms(**room)
+                    db.add(new_room)
+            db.commit()
+        print("Database loaded from json")
+        db.close()
 
 def delete_old_rooms():
     db = database.SessionLocal()
