@@ -4,7 +4,7 @@ from datetime import datetime
 import os
 from app.today_singleton import TodaySingleton
 
-#load_dotenv("./app/var.env")  # Load environment variables from a .env file
+load_dotenv("./app/var.env")  # Load environment variables from a .env file
 
 SECRET_KEY = os.getenv("SECRET_KEY")
 API_KEY = os.getenv("TMDB_API_KEY")

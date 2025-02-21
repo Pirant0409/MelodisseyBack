@@ -253,8 +253,8 @@ def restore_db(data):
     db.close()
 
 def clear_db(db):
-    db.query(models.Days).delete()
     db.query(models.Stats).delete()
     db.query(models.Movies).delete()
+    db.query(models.Days).delete()
     db.query(models.Rooms).delete()
     db.commit()
