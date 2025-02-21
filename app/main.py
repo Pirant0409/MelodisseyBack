@@ -18,10 +18,10 @@ app.add_middleware(
     allow_headers=["Content-Type", "Authorization","Accept"]
 )
 
-# app.add_middleware(
-#     TrustedHostMiddleware,
-#     allowed_hosts=["melodissey.e-kot.be", "melodissey-back.e-kot.be", "https://melodissey.e-kot.be", "https://melodissey-back.e-kot.be"],
-# )
+app.add_middleware(
+    TrustedHostMiddleware,
+    allowed_hosts=["melodissey.e-kot.be", "melodissey-back.e-kot.be", "https://melodissey.e-kot.be", "https://melodissey-back.e-kot.be"],
+)
 
 models.Base.metadata.create_all(bind=database.engine)
 
