@@ -12,7 +12,7 @@ def is_it_guess(media,tmdbid):
         return False
 
 def is_guess_right(movie,id,media,collection):
-    if movie.tmdbid == id and movie.media == media or movie.collection == collection and collection is not None and movie.media == media:
+    if movie.tmdbid == id and movie.media == media or movie.collection == collection and collection != "None" and movie.media == media:
         return True
 
 def check_param(game, param, room_type):
